@@ -27,11 +27,11 @@ export default function Sevom () {
                               marginTop:  index == 0 ? 29 : '.20em',
                               marginLeft: index==0?29:'60em'
                           }}
-                          className='KHANE'
+                          className='DATA'
 
                           alt=""/>
                      <p
-                         className='ZARFIATT'
+                         className='DATAONE'
                          style={{
 
                              marginTop: index == 0 ?29 : '.2em',
@@ -44,7 +44,7 @@ export default function Sevom () {
                          {item.title}
                      </p>
                      <p
-                         className='ZARFIAT'
+                         className='DATATWO'
                          style={{
 
                              marginTop: index == 0 ? 29: '.2em',

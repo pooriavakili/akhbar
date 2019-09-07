@@ -28,11 +28,11 @@ export default function App () {
                                      marginTop:  index == 0 ? 30 : '.20em',
                                      marginLeft: index==0?30:'60em'
                                  }}
-                                 className='KHANE'
+                                 className='DATA'
 
                                  alt=""/>
                             <p
-                                className='ZARFIATT'
+                                className='DATAONE'
                                 style={{
 
                                     marginTop: index == 0 ?30 : '.2em',
@@ -45,7 +45,7 @@ export default function App () {
                                 {item.title}
                             </p>
                             <p
-                                className='ZARFIAT'
+                                className='DATATWO'
                                 style={{
 
                                     marginTop: index == 0 ? 30 : '.2em',
@@ -66,7 +66,7 @@ export default function App () {
                 <div
                     style={{
                         position:"absolute",
-                        top:9600,
+                        top:10400,
                         right:650
 
                     }}
@@ -93,7 +93,7 @@ export default function App () {
                 <div
                     style={{
                         position:"absolute",
-                        top:9600,
+                        top:10400,
                         right:600
 
                     }}
@@ -121,7 +121,7 @@ export default function App () {
                 <div
                     style={{
                         position:"absolute",
-                        top:9600,
+                        top:10400,
                         right:550
 
                     }}

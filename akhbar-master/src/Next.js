@@ -4,11 +4,10 @@ import Header from "./component/Header";
 import {Link} from "react-router-dom";
 import DataOne from "./DataOne";
 export default function Next (){
-
         return(
             <div>
                 <Header/>
-                <div>
+                <div >
                     {
                         DataOne.map((item,index)=>(
                             <div
@@ -28,11 +27,11 @@ export default function Next (){
                                          marginTop:  index == 0 ? 30 : '.20em',
                                          marginLeft: index==0?30:'60em'
                                      }}
-                                     className='KHANE'
+                                     className='DATA'
 
                                      alt=""/>
                                 <p
-                                    className='ZARFIATT'
+                                    className='DATAONE'
                                     style={{
 
                                         marginTop: index == 0 ?30 : '.2em',
@@ -45,7 +44,7 @@ export default function Next (){
                                     {item.title}
                                 </p>
                                 <p
-                                    className='ZARFIAT'
+                                    className='DATATWO'
                                     style={{
 
                                         marginTop: index == 0 ? 30 : '.2em',

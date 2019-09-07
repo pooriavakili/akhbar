@@ -26,11 +26,11 @@ export default class Chaharom extends  Component{
                                      marginTop:  index == 0 ? 23 : '.20em',
                                      marginLeft: index==0?23:'60em'
                                  }}
-                                 className='KHANE'
+                                 className='DATA'
 
                                  alt=""/>
                             <p
-                                className='ZARFIATT'
+                                className='DATAONE'
                                 style={{
 
                                     marginTop: index == 0 ?23 : '.2em',
@@ -43,7 +43,7 @@ export default class Chaharom extends  Component{
                                 {item.title}
                             </p>
                             <p
-                                className='ZARFIAT'
+                                className='DATATWO'
                                 style={{
 
                                     marginTop: index == 0 ? 23: '.2em',
@@ -61,8 +61,7 @@ export default class Chaharom extends  Component{
 
                 ))
                 }
-                ))    
-                }
+
                 <div
                     style={{
                         position:"absolute",
