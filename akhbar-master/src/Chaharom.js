@@ -69,7 +69,7 @@ export default class Chaharom extends  Component{
                         right:700
 
                     }}
-                    className='YAK'
+                    className='ONE'
                 >
                     <Link to='/app'
                           style={{
@@ -90,7 +90,7 @@ export default class Chaharom extends  Component{
                     </Link>
                 </div>
                 <div
-                    className="DOVOMM"
+                    className="DO"
                     style={{
                         position:"absolute",
                         top:6600,
@@ -125,7 +125,7 @@ export default class Chaharom extends  Component{
                         right:600
 
                     }}
-                    className='SEEE'
+                    className='SEH'
                 >
                     <Link to='/sevom'
                           style={{

@@ -64,7 +64,7 @@ export default function Sevom () {
         }
     </div>
     <div
-        className="DOVOMM"
+        className="DO"
         style={{
             position:"absolute",
             top:10000,
@@ -98,7 +98,7 @@ export default function Sevom () {
         right:700
 
     }}
-    className='YAK'
+    className='ONE'
 >
     <Link to='/app'
           style={{
@@ -123,7 +123,7 @@ export default function Sevom () {
             top:10000,
             right:600
         }}
-        className='CHAHAROMM'
+        className='FOUR'
     >
         <Link to='/chaharom'
               style={{

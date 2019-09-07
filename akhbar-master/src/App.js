@@ -70,7 +70,7 @@ export default function App () {
                         right:650
 
                     }}
-                    className='YAK'
+                    className='ONE'
                 >
                     <Link to='/next'
                           style={{
@@ -97,7 +97,7 @@ export default function App () {
                         right:600
 
                     }}
-                    className='SEVOMM'
+                    className='THREE'
                 >
                     <Link to='/sevom'
                           style={{
@@ -125,7 +125,7 @@ export default function App () {
                         right:550
 
                     }}
-                    className='CHAHARR'
+                    className='FOUR'
                 >
                     <Link to='/chaharom'
                           style={{

@@ -71,7 +71,7 @@ export default function Next (){
                         right:650
 
                     }}
-className='YAK'
+className='ONE'
                 >
                     <Link to='/app'
                     style={{
@@ -98,7 +98,7 @@ className='YAK'
                     right:600
 
                 }}
-                className='SEVOMM'
+                className='THREE'
             >
                 <Link to='/sevom'
                       style={{
@@ -126,7 +126,7 @@ className='YAK'
                         right:550
 
                     }}
-                    className='CHAHARR'
+                    className='FOUR'
                 >
                     <Link to='/chaharom'
                           style={{
