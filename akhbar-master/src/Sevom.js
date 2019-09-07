@@ -24,8 +24,8 @@ export default function Sevom () {
                      <img src={item.aks}
                           style={{
 
-                              marginTop:  index == 0 ? 30 : '.20em',
-                              marginLeft: index==0?30:'60em'
+                              marginTop:  index == 0 ? 29 : '.20em',
+                              marginLeft: index==0?29:'60em'
                           }}
                           className='KHANE'
 
@@ -34,7 +34,7 @@ export default function Sevom () {
                          className='ZARFIATT'
                          style={{
 
-                             marginTop: index == 0 ?30 : '.2em',
+                             marginTop: index == 0 ?29 : '.2em',
                              marginRight:  index == 0 ? 29 : '20em',
                              fontSize: '1.3em',
                              direction: "rtl",
@@ -47,9 +47,9 @@ export default function Sevom () {
                          className='ZARFIAT'
                          style={{
 
-                             marginTop: index == 0 ? 30 : '.2em',
+                             marginTop: index == 0 ? 29: '.2em',
                              width: "40%",
-                             marginLeft: index == 0 ? 30 : '19em',
+                             marginLeft: index == 0 ? 29 : '19em',
                              fontSize: '1.3em',
                              direction: "rtl",
 
