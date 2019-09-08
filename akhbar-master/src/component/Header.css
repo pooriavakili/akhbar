@@ -50,13 +50,6 @@ header nav ul li{
         left: 140px;
         width: 50%;
     }
-.RADmehr{
-    left:270px;
-}
-    .Aval{
-        left:300px;
-    }
-
     header{
       padding: 0 20px;
     }
@@ -64,22 +57,7 @@ header nav ul li{
     header nav{
         display: none;
     }
-    .Nevisande{
-        left:200px;
-        font-size: 10px;
-    }
-    .Iinstagram{
-        left:400px;
-    }
-    .TTelgram{
-        left:350px;
-    }
-    .About{
-        left:400px;
-    }
-    .DDDDownload{
-        left:100px;
-    }
+
 }
 .Telegram{
     width:30px;

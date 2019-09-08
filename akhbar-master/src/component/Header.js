@@ -62,10 +62,9 @@ export default class Header extends Component{
                 }}
             >
 <div
-className='Aval'
+
 style={{
-    position:"absolute",
-    right:700
+marginRight:"500em"
 }}
 >
     <Link
@@ -81,11 +80,9 @@ style={{
     </Link>
 </div>
                 <div
-                    className='About'
                     style={{
-                        top:15,
-                        position:"absolute",
-                     right:800
+                      marginTop:"100em",
+                        marginRight:"200em"
                     }}
 
                 >
@@ -116,11 +113,9 @@ style={{
                         <p
 
                             style={{
-                                position:"absolute",
-                                right:900,
+                                marginRight:"400em",
                                 cursor:"pointer"
                             }}
-                            className='DDDDownload'
                         >
                         دانلود اپلیکیشن
                         </p>
@@ -128,13 +123,9 @@ style={{
                 </div>
 
                 <div
-                    className='TTelgram'
                 style={{
-
-                    position:'absolute',
-
-                    right:850,
-                    top:70,
+                    marginRight:'200em',
+                    marginTop:"300em",
                     cursor: 'pointer'
                 }}
                 >
@@ -148,13 +139,9 @@ style={{
                     />
                 </div>
                 <div
-                    className='Iinstagram'
                     style={{
-
-                        position:'absolute',
-
-                        right:800,
-                        top:70,
+                      marginRight:'200em',
+                        marginTop:"300em",
                         cursor: 'pointer'
                     }}
                 >
@@ -167,34 +154,32 @@ style={{
                     />
                 </div>
                 <div
-                    className='Nevisande'
+
                 style={{
-                    position:"absolute",
-                    right:650,
-                    top:100
+                 marginRight:'100em',
+                    marginTop:'400em'
                 }}
                 >
                     <p
                     style={{
                         color:"gray",
-                        fontSize:20
+                        fontSize:'1.1em'
                     }}
                     >
                         نویسنده سایت:پوریا اشکوروکیلی
                     </p>
                 </div>
                 <div
-                    className='RADmehr'
+
                     style={{
-                        position:"absolute",
-                        right:650,
-                        top:140
+                    marginRight:'100em',
+                        marginTop:'500em'
                     }}
                 >
                     <p
                         style={{
                             color:"gray",
-                            fontSize:20
+                            fontSize:'1.1em'
                         }}
                     >
                         ایده سایت:دکتر رادمهر
