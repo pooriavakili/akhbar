@@ -1,8 +1,8 @@
-import React,{Component} from 'react'
 
-import Drawer from './../ResponsiveDrawer'
+
 import {NavLink,Link} from "react-router-dom";
 import './Header.css'
+import React,{Fragment,Component} from 'react'
 export default class Header extends Component{
     state={
         telegram:"telgram",
@@ -10,43 +10,45 @@ export default class Header extends Component{
     }
 
     render(){
+        const Style={
+            float:'right',
+            padding:'1em',
+            color:"white",
+            textDecoration:"none"
+        }
         return(
-            <body>
-            <header>
+            <Fragment>
 
-                <div className='Logo'>
-                    اخبار صادراتی
-                </div>
+                    <ul
 
-                <nav>
-                    <ul>
+                    style={{
+                     margin:0,
+                     padding:0,
+                        listStyle:'none',
+                        backgroundColor:"black",
+                        overflow:"hidden"
+                    }}
+
+                    >
+
                         <li>
-                            <NavLink to='/download' className='Link'>دانلود اپلیکیشن</NavLink>
+                            <NavLink  to='/download'  style={Style}>دانلود اپلیکیشن</NavLink>
                         </li>
 
 
                         <li>
-                            <NavLink to='/about' className='Link'>درباره سایت</NavLink>
+                            <NavLink   to='/about' style={Style}>درباره سایت</NavLink>
                         </li>
                         <li>
-                            <NavLink to='/app' className='Link'>صفحه اول</NavLink>
+                            <NavLink   to='/app'  style={Style}>صفحه اول</NavLink>
                         </li>
 
                     </ul>
 
-                </nav>
-                <div>
-
-                    <Drawer
-
-                    />
-
-                </div>
 
 
 
 
-            </header>
             <footer
                 style={{
 
@@ -54,117 +56,122 @@ export default class Header extends Component{
                     height: 190,
                     background: 'black',
                     position:'absolute',
-                    top:10500,
-
-                   borderWidth:3,
+                    marginTop:'660em',
+                   overflow:"hidden",
+                    borderWidth:3,
                     borderStyle:"solid",
                     borderColor:"black"
                 }}
             >
-<div
+                <div
 
-style={{
-marginRight:"500em"
-}}
->
-    <Link
-        to='/'
-    style={{
-        color:"gray",
-        cursor:"pointer",
-        textDecoration:"none"
-    }}
-    >
-        <p>صفحه اول</p>
+                    style={{
+                marginLeft:'40em'
+                    }}
+                >
+                    <Link
+                        to='/'
+                        style={{
+                            color:"gray",
+                            cursor:"pointer",
+                            textDecoration:"none"
+                        }}
+                    >
+                        <p>صفحه اول</p>
 
-    </Link>
-</div>
+                    </Link>
+                </div>
                 <div
                     style={{
-                      marginTop:"100em",
-                        marginRight:"200em"
+                        marginTop:-35,
+             marginLeft:'30em',
+              fontSize:"1.1em"
                     }}
 
                 >
 
                     <Link
 
-                    to='/about'
-                    style={{
-                        cursor:"pointer",
-                        color:'gray',
-                        textDecoration:"none"
-                    }}
+                        to='/about'
+                        style={{
+                            cursor:"pointer",
+                            color:'gray',
+                            textDecoration:"none"
+                        }}
                     >
-                    درباره سایت
+                        درباره سایت
                     </Link>
 
-                    </div>
+                </div>
                 <div
 
-                   >
+                >
                     <Link
-                    to='/download'
-                    style={{
-                        color:"gray",
-                        cursor:"pointer"
-                    }}
+                        to='/download'
+                        style={{
+                            color:"gray",
+                            cursor:"pointer",
+                            textDecoration:"none"
+                        }}
                     >
                         <p
 
                             style={{
-                                marginRight:"400em",
-                                cursor:"pointer"
+                                marginTop:-20,
+                                marginLeft:"22em",
+                                cursor:"pointer",
+                               fontSize:"1.1em"
                             }}
                         >
-                        دانلود اپلیکیشن
+                            دانلود اپلیکیشن
                         </p>
                     </Link>
                 </div>
 
                 <div
-                style={{
-                    marginRight:'200em',
-                    marginTop:"300em",
-                    cursor: 'pointer'
-                }}
+                    style={{
+
+                        cursor: 'pointer'
+                    }}
                 >
                     <img src={require('./../img/Telgram.jpg')}
 
                          style={{
                              width:30,
-                             height:30
+                             height:30,
+                             marginLeft:"40em"
                          }}
-                    onClick={this.Telegram}
+                         onClick={this.Telegram}
                     />
                 </div>
                 <div
                     style={{
-                      marginRight:'200em',
-                        marginTop:"300em",
+                        marginTop:-32,
                         cursor: 'pointer'
                     }}
                 >
                     <img src={require('./../img/instagram.jpg')}
                          style={{
                              width:30,
-                             height:30
+                             height:30,
+
+                             marginLeft:"37em"
                          }}
                          onClick={this.Instagram}
                     />
                 </div>
                 <div
 
-                style={{
-                 marginRight:'100em',
-                    marginTop:'400em'
-                }}
+                    style={{
+
+                    }}
                 >
                     <p
-                    style={{
-                        color:"gray",
-                        fontSize:'1.1em'
-                    }}
+                        style={{
+                            color:"gray",
+                            fontSize:'1.1em',
+                            marginLeft:"25em"
+                        }}
                     >
                         نویسنده سایت:پوریا اشکوروکیلی
                     </p>
@@ -172,21 +179,21 @@ marginRight:"500em"
                 <div
 
                     style={{
-                    marginRight:'100em',
-                        marginTop:'500em'
+
                     }}
                 >
                     <p
                         style={{
                             color:"gray",
-                            fontSize:'1.1em'
+                            fontSize:'1.1em',
+                            marginLeft:'25em'
                         }}
                     >
                         ایده سایت:دکتر رادمهر
                     </p>
                 </div>
             </footer>
-            </body>
+            </Fragment>
         )
     }
 }

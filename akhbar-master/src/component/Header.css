@@ -1,45 +1,5 @@
 
 
-body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    overflow: scroll;
-    overflow-x: hidden;
-
-}
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #262626;
-    padding: 0 100px;
-    box-sizing: border-box;
-    width: 100%;
-
-}
-.Logo{
-    position: absolute;
-    left:200px;
-    line-height: 50px;
-    height: 50px;
-    color: #fff;
-    font-size: 24px;
-
-    font-weight: bold;
-}
-header nav{
-    float: right;
-}
-header nav ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-header nav ul li{
-    list-style: none;
-}
-
 
 @media (max-width: 991px) {
     .APK{
@@ -50,14 +10,6 @@ header nav ul li{
         left: 140px;
         width: 50%;
     }
-    header{
-      padding: 0 20px;
-    }
-
-    header nav{
-        display: none;
-    }
-
 }
 .Telegram{
     width:30px;
@@ -75,14 +27,4 @@ header nav ul li{
     top:10px;
     cursor: pointer;
 }
-.Link{
-    height: 50px;
-    line-height: 50px;
-    color: #fff;
-    text-decoration: none;
-    padding: 0 20px;
 
-}
-.Link:hover{
-    color:red
-}
