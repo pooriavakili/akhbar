@@ -1,5 +1,3 @@
-
-
 import {NavLink,Link} from "react-router-dom";
 import './Header.css'
 import React,{Fragment,Component} from 'react'
@@ -8,7 +6,6 @@ export default class Header extends Component{
         telegram:"telgram",
         instagram:'instagram'
     }
-
     render(){
         const Style={
             float:'right',
@@ -18,9 +15,7 @@ export default class Header extends Component{
         }
         return(
             <Fragment>
-
                     <ul
-
                     style={{
                      margin:0,
                      padding:0,
@@ -30,28 +25,18 @@ export default class Header extends Component{
                     }}
 
                     >
-
                         <li>
                             <NavLink  to='/download'  style={Style}>دانلود اپلیکیشن</NavLink>
                         </li>
-
-
                         <li>
                             <NavLink   to='/about' style={Style}>درباره سایت</NavLink>
                         </li>
                         <li>
                             <NavLink   to='/app'  style={Style}>صفحه اول</NavLink>
                         </li>
-
                     </ul>
-
-
-
-
-
             <footer
                 style={{
-
                     width:1500,
                     height: 190,
                     background: 'black',
@@ -89,7 +74,6 @@ export default class Header extends Component{
                     }}
 
                 >
-
                     <Link
 
                         to='/about'
@@ -101,10 +85,8 @@ export default class Header extends Component{
                     >
                         درباره سایت
                     </Link>
-
                 </div>
                 <div
-
                 >
                     <Link
                         to='/download'
@@ -127,10 +109,8 @@ export default class Header extends Component{
                         </p>
                     </Link>
                 </div>
-
                 <div
                     style={{
-
                         cursor: 'pointer'
                     }}
                 >
@@ -154,17 +134,12 @@ export default class Header extends Component{
                          style={{
                              width:30,
                              height:30,
-
                              marginLeft:"37em"
                          }}
                          onClick={this.Instagram}
                     />
                 </div>
                 <div
-
-                    style={{
-
-                    }}
                 >
                     <p
                         style={{
@@ -177,10 +152,6 @@ export default class Header extends Component{
                     </p>
                 </div>
                 <div
-
-                    style={{
-
-                    }}
                 >
                     <p
                         style={{
