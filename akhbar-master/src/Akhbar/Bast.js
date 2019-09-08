@@ -10,21 +10,18 @@ export default class Bast extends Component{
 
                 >
                     <img src={require('./../img/57842869.jpg')}
-                         className='AMERICAA'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +30,11 @@ export default class Bast extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -51,12 +46,10 @@ export default class Bast extends Component{
                         با این حال به نظر نمی‌رسد عراقی‌ها قصد داشته باشند زیر سایه معافیت‌های آمریکا تعامل گازی و برقی خود با ایران را ادامه دهند و صراحتاً اعلام کرده‌اند واردات خود را متوقف نخواهند کرد. با وجود این‌که آمریکا چندی پیش اعلام کرد معافیت‌های نفتی علیه ایران را تمدید نخواهد کرد.
                     </p>
                     <p
-                        className=' GAZ'
                         style={{
-                            bottom:-200,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -67,13 +60,11 @@ export default class Bast extends Component{
 
                     </p>
                     <p
-                        className=' Gaz'
                         style={{
-                            bottom:-450,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -82,12 +73,10 @@ export default class Bast extends Component{
 
                         به گفته وی میزان صادرات برق ایران به عراق نیز ۱۲۰۰ مگاوات در روز است.                    </p>
                     <p
-                        className='Tavarom'
                         style={{
-                            bottom:-550,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -98,13 +87,11 @@ export default class Bast extends Component{
 
                     </p>
                     <p
-                        className='Ttavarom'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -113,12 +100,10 @@ export default class Bast extends Component{
 
                         حسینی در ادامه درباره پرداخت بدهی عراق به ایران نیز توضیح داد: عراقی‌ها طبق روال بدهی خود را پرداخت می‌کنند. البته با دلار و یورو نیست و با دینار پرداخت می‌کنند.                    </p>
                     <p
-                        className=' Kkoree'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -129,13 +114,11 @@ export default class Bast extends Component{
 
                     </p>
                     <p
-                        className=' Koree'
                         style={{
-                            bottom:-1400,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

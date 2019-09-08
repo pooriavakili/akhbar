@@ -11,33 +11,30 @@ export default class Khorasan extends Component{
                 >
                     <img src={require('./../img/57794094.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='KHORASAN'
                     />
                     <p
-                        className='kffd'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         پای صادرات خراسان جنوبی از تعطیلی بازارچه‌ها می‌لنگد
                     </p>
                     <p
-                        className=' kjkg'
+
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
 
                     >

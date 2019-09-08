@@ -10,20 +10,18 @@ export default class Goosht extends Component{
 
                 >
                     <img src={require('./../img/57831033.jpg')}
-                         className='GOOSHT'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                           right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className=' GGOSHT'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:350,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -32,13 +30,11 @@ export default class Goosht extends Component{
 
                     </p>
                     <p
-                        className=' jhshjd'
                         style={{
-                            bottom:-150,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -52,12 +48,10 @@ export default class Goosht extends Component{
                         رئیس کمیسیون مرزنشینان اتاق تعاون ایران خاطرنشان کرد: مدتی قبل یکی از تجار گرجستان به ما اعلام کرد که گوسفندان زیادی دارد و می‌تواند با قیمت مناسب به ما بفروشد و از طریق گمرک مقصد در تهران یا مشهد به ما تحویل دهد. اگر دولت به ما ارز رسمی بدهد، گوشت را با قیمت کیلویی ۳۵ هزار تومان وارد و در نهایتاً ۴۰ هزار تومان ترخیص می‌کنیم. سود مرزنشینان هم اگر ۱۰ هزار تومان شود، قیمت گوشت وارداتی به جای ۹۰ هزار تومان، کیلویی ۵۰ هزار تومان می‌شود که مصرف کننده قادر به خرید آن خواهد بود.
                     </p>
                     <p
-                        className=' Ttojooh'
                         style={{
-                            bottom:-250,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -69,13 +63,11 @@ export default class Goosht extends Component{
 
                     </p>
                     <p
-                        className=' tojih'
                         style={{
-                            bottom:-600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -87,12 +79,10 @@ export default class Goosht extends Component{
                         سیفی در ادامه بیشترین اقلام وارداتی مرزنشینان را روغن، برنج و چای اعلام کرد و گفت: بیشترین میزان برنج وارداتی ما از پاکستان است و از آسیای میانه خیلی واردات نداریم اما دو قلم کالای کنجد و گردو که تولیدش در افغانستان خوب است وارد می‌کنیم.
                     </p>
                     <p
-                        className='Aaghlam'
                         style={{
-                            bottom:-750,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -103,13 +93,11 @@ export default class Goosht extends Component{
 
                     </p>
                     <p
-                        className=' Aghlam'
                         style={{
-                           bottom:-1050,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

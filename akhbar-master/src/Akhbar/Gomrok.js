@@ -10,32 +10,28 @@ export default class Gomrok extends Component{
 
                 >
                     <img src={require('./../img/57591446.jpg')}
-                         className='KHORMAAA'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='GHOMROKK'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات ۳۰۰ میلیون دلاری خرما در سال گذشته
                     </p>
                     <p
-                        className=' GHDD'
                         style={{
-                            bottom:-100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

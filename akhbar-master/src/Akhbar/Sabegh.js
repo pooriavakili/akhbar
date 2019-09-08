@@ -11,20 +11,21 @@ export default class Sabegh extends Component{
 
                 >
                     <img src={require('./../img/57869275.jpg')}
-                         className='Sabegh'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                            right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Dolat'
+
+
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:280,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
 
@@ -33,16 +34,15 @@ export default class Sabegh extends Component{
                     </p>
 
                     <p
-                        className=' REWWE'
-                        style={{
-                            bottom:-300,
-                            width:"70%",
-                            direction:"rtl",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            fontFamily:"b zar",
 
+                        style={{
+
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
+                            fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         رئیس سابق اتاق بازرگانی، صنایع، معادن و کشاورزی ایران با بیان اینکه اگر سیاست‌های صادراتی که در آغاز سال ۹۷ ابلاغ شد، اجرا نمی‌شد، صادرات کاهش نداشت، اظهار کرد که تک نرخی شدن ارز موجب رونق صادرات، کاهش نرخ ارز و کنترل قاچاق و حذف صادرکنندگان مصنوعی می‌شود.

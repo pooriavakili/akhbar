@@ -11,34 +11,31 @@ export default class Gheimat extends Component{
                 >
                     <img src={require('./../img/1448613100362_ISNA-10-th2.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='GHIMAT'
                     />
                     <p
-                        className='GGHEIMAT'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:300,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
 
                         }}
                     >
                         افزایش قیمت دلار صادرات محصولات دانش‌بنیان را توجیه‌پذیر کرده است
                     </p>
                     <p
-                        className=' CVFD'
                         style={{
-                            bottom:-250,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         معاون علمی‌وفناوری رییس‌جمهور در خصوص صادرات محصولات دانش‌بنیان کشور در سال گذشته، گفت: افزایش قیمت دلار صادرات بسیاری از محصولات دانش‌بنیان را توجیه‌پذیر کرده است.

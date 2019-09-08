@@ -10,33 +10,29 @@ export default class KartBazargany extends Component{
 
                 >
                     <img src={require('./../img/57822821.jpg')}
-                         className='KALa'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='SODDUR'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
                         صدور ۱۳۰۰ کارت‌ بازرگانی جدید در یک ماه!
                     </p>
                     <p
-                        className='bjj'
                         style={{
-                            bottom:-200,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -48,12 +44,11 @@ export default class KartBazargany extends Component{
                         وی تاکید کرد: قطعاً باید بررسی شود که دلیل فعال شدن این تعداد کارت در یک مدت زمان کوتاه چه بوده است و در صورتی که آنها به دنبال بازنگرداندن ارز به کشور باشند، باید تکلیف روشن شود.
                     </p>
                     <p
-                        className='ROSHAN'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         فقط ۲۰ میلیارد تومان از مشوق‌های صادراتی وصول شد
@@ -61,14 +56,11 @@ export default class KartBazargany extends Component{
 
                     </p>
                         <p
-
-                            className='KARTBAZARGHANY'
-                            style={{
-                                bottom:-900,
-                                width:"70%",
-                                position:"absolute",
-                                right:200,
-                                fontSize:22,
+                                style={{
+                                marginTop:'4em',
+                                marginLeft:'3em',
+                                width:"80%",
+                                fontSize:'1.3em',
                                 fontFamily:"b zar",
                                 direction:"rtl"
                             }}

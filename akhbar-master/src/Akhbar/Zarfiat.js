@@ -10,34 +10,32 @@ export default class Zarfiat extends Component{
 
                 >
                     <img src={require('./../img/57614499.jpg')}
-                         className='Zohooor'
+
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='FDSEE'
+
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ظرفیت صادرات ۷۰۰ میلیون دلاری لوازم خانگی در سال ۹۸
                     </p>
                     <p
-                        className=' KHANEGHY'
                         style={{
-                            bottom:-200,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         مدیرکل دفتر صنایع فلزی و لوازم خانگی وزارت صنعت، معدن و تجارت (صمت) از امکان صادرات ۷۰۰ میلیون دلاری لوازم خانگی در سال ۹۸ خبر داد و گفت: در صورت تأمین ملزومات تولید، علاوه بر تأمین نیاز داخل، توان صادرات مناسبی داریم.

@@ -10,35 +10,31 @@ export default class Markazy extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='Ghalam'
                          style={{
-                             position:"absolute",
-                             top:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='BCDFD'
+
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         هدف‌گذاری صادرات یک میلیارد و ۲۲۰ میلیون دلاری برای استان مرکزی
                     </p>
                     <p
-                        className=' Mamnooee'
                         style={{
-                            top:520,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
-
                         }}
                     >
                         ‌رییس سازمان صنعت معدن و تجارت استان مرکزی گفت: در سال ۹۸ صادرات یک میلیارد و ۲۲۰ میلیون دلار برای استان هدف‌گذاری شد.

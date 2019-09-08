@@ -10,32 +10,30 @@ export default class Jadid extends Component{
 
                 >
                     <img src={require('./../img/57773049.jpg')}
-                         className='america'
+
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='kjsakd'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         جدیدترین آمار تجارت ایران و آمریکا
                     </p>
                     <p
-                        className=' bjj'
+
                         style={{
-                            bottom:-250,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

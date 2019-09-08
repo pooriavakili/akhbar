@@ -10,20 +10,19 @@ export default class Pay extends Component{
 
                 >
                     <img src={require('./../img/57597271.jpg')}
-                         className='PAYY'
+
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='GOZE'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -32,13 +31,11 @@ export default class Pay extends Component{
 
                     </p>
                     <p
-                        className=' dsnjd'
                         style={{
-                            bottom:-500,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -54,13 +51,12 @@ export default class Pay extends Component{
                         این کارشناس حوزه کار با بیان اینکه تصمیمات دولتی باید بر مبنای متغیرهای واقعی اقتصاد باشد، اظهار کرد: اگر واحدی قبلاً ۱۰۰ میلیون تومان بابت مواد اولیه پرداخت می‌کرده امروز باید ۳۰۰ میلیون تومان بپردازد ولی رکود تورمی ایجاد شده در کشور باعث می‌شود نه فقط تولیدکننده بلکه کارگر و جامعه هم متضرر شوند؛ چون وقتی تورم اتفاق می‌افتد پول و کارکرد آن هم کم می‌شود. ۱۰۰ میلیون تومان کارایی ۵۰ میلیون تومان را در اقتصاد دارد و عملاً ارزش خود را از دست می‌دهد؛ به همین دلیل نباید بدون مشورت با بخش خصوصی تصمیمی گرفته شود چون این بخش از شرایط موجود تأثیر می‌پذیرد.
                     </p>
                     <p
-                        className='Bedun'
+
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
-                            fontFamily:"XBKayhan",
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+
                             direction:"rtl"
                         }}
                     >
@@ -72,13 +68,12 @@ export default class Pay extends Component{
 
                     </p>
                     <p
-                        className='MASHVARAT'
+
                         style={{
-                            bottom:-1100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

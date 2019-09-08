@@ -11,20 +11,22 @@ export default class Roshed extends Component{
 
                 >
                     <img src={require('./../img/57343883.jpg')}
-                         className='Sabegh'
+
                          style={{
-                             position:"absolute",
-                             bottom:150,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Dolat'
+
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+
+
+                            fontSize:'1.3em'
                         }}
                     >
 
@@ -33,15 +35,15 @@ export default class Roshed extends Component{
                     </p>
 
                     <p
-                        className=' REWWE'
+
                         style={{
-                            bottom:-850,
-                            width:"70%",
-                            direction:"rtl",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
 
                         }}
                     >

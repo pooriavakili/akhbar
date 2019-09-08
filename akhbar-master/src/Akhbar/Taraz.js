@@ -10,36 +10,31 @@ export default class Taraz extends Component{
 
                 >
                     <img src={require('./../img/57661386.jpg')}
-                         className='Tarazz'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='WQWQS'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         تراز تجاری مثبت ۱۷۰۰ میلیون دلاری در سال ۹۷
 
                     </p>
                     <p
-                        className=' Tejary'
                         style={{
-                           bottom:-50,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            direction:"rtl",
-                            width:"70%",
-                            position:"absolute",
-                            right:100,
-                            fontSize:22
+                            direction:"rtl"
                         }}
                     >
                         گمرک ایران حجم تجارت خارجی کشورمان را در سال گذشته حدود ۸۷ میلیارد دلار اعلام کرد که بر این اساس تراز تجاری‌مان ۱۷۰۰ میلیون دلار مثبت شده است.
@@ -53,12 +48,10 @@ export default class Taraz extends Component{
 
                     </p>
                     <p
-                        className='Kodam'
                         style={{
-                            bottom:-150,
-                            position:"absolute",
-                            right:400,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         کدام کالاها بیشتر و به کجا صادر شدند؟
@@ -67,13 +60,11 @@ export default class Taraz extends Component{
 
                     </p>
                     <p
-                        className=' Arzesh'
                         style={{
-                          bottom:-500,
-                            position:"absolute",
-                            right:100,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -87,12 +78,11 @@ export default class Taraz extends Component{
                         همچنین متوسط قیمت هر تن کالای صادراتی ایران در سال گذشته ۳۷۸ دلار بوده که نسبت به مدت مشابه سال گذشته ۶.۹۱ درصد افزایش داشته است.
                     </p>
                     <p
-                        className='Iran'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:400,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         ایران بیشتر چه کالاهایی خرید؟
@@ -100,17 +90,13 @@ export default class Taraz extends Component{
 
                     </p>
                     <p
-                        className=' Bishtar'
                         style={{
-                            bottom:-1000,
-                            position:"absolute",
-                            right:100,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
-
-
                         }}
                     >
                         براساس آمار ارائه شده از سوی گمرک ایران، در سال گذشته ذرت دامی کالایی بوده که بیشترین واردات را معادل دو میلیارد و ۹۰ میلیون دلار به ایران داشته و پس از آن برنج به ارزش یک میلیارد و ۶۰۸ میلیون دلار، قطعات منفصله جهت تولید اتومبیل سواری به استثنای لاستیک به ارزش یک میلیارد و ۳۸۰ میلیون دلار، لوبیای سویا به ارزش یک میلیارد و ۱۶۱ میلیون دلار و کنجاله سویا به ارزش ۶۵۱ میلیون دلار در رتبه‌های بعدی واردات ایران قرار گرفته‌اند.

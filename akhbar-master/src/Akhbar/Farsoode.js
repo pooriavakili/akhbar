@@ -10,35 +10,33 @@ export default class Farsoode extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='FFarsoode'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Farsooode'
+
                         style={{
-                           bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         تجهیزات فرسوده؛ عامل کیفیت پایین برخی کالاها
 
                     </p>
                     <p
-                        className=' RWEE'
+
                         style={{
-                           bottom:-150,
-                           width:"70%",
-                            direction:"rtl",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            fontSize:20,
+                            direction:"rtl"
 
                         }}
                     >

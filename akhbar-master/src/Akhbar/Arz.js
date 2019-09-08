@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Arz extends Component{
     render(){
@@ -10,21 +10,18 @@ export default class Arz extends Component{
 
                 >
                     <img src={require('./../img/57756362.jpg')}
-                         className='Rah'
                     style={{
-                        position:"absolute",
-                        bottom:250,
-                        right:450
+                        marginTop:"5em",
+                        display: 'block',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
                     }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                           right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +30,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                           right:200,
-                            fontSize:18,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -56,12 +51,10 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Deraz'
                         style={{
-                            bottom:-150,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -71,13 +64,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Dderaz'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -85,12 +76,10 @@ export default class Arz extends Component{
                         از زمان بررسی لایحه بودجه سال ۹۸ و بررسی منابع جبران خسارت سیل پای صندوق ذخیره ارزی به میان آمد، که در روزهای گذشته نسبت به میزان برداشت از این صندوق ارقام قابل توجهی اعلام شده است. بررسی‌ها نشان از آن دارد که در نه ماهه اول سال گذشته از محل ذخایر ارزی حدود ۱۴ هزار و ۵۰۰ میلیون دلار قراردادهای عاملیت پرداخت تسهیلات ارزی و همچنین تا ۹ هزار و ۶۰۰ میلیارد تومان قراردادهای ریالی برای تسهیلات منعقد شده است.
                     </p>
                     <p
-                        className='Tavarom'
                         style={{
-                            bottom:-400,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -100,13 +89,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className='Ttavarom'
                         style={{
-                          bottom:-550,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -114,12 +101,10 @@ export default class Arz extends Component{
                         با آغاز سال ۹۸ و تعیین نام رونق تولید برای سال ۱۳۹۸ بانک‌ها مأموریت یافتند تا تسهیلات قابل توجهی در زمینه رونق تولید در دستور کار قرار دهند که روز گذشته وزیر اقتصاد و دارایی به بانک مرکزی پیشنهاد کرد تا نرخ متوسط سپرده قانونی ۴ درصد کاهش یافته و این منابع برای اعطای تسهیلات بیشتر در جهت رونق تولید به کار گرفته شود. که در این زمینه امیرحسین خالقی کارشناس اقتصادی معتقد است اگر پیش شرط‌های رونق تولید به درستی زمینه سازی نشود تنها افزایش تسهیلات راهگشای رونق تولید نیست و احتمال داده می‌شود این موضوع تورم را افزایش دهد.
                     </p>
                     <p
-                        className=' Kkoree'
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -129,13 +114,12 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Koree'
+
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -145,14 +129,10 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Ttokhm'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         تصمیم تخم‌مرغی
@@ -160,13 +140,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Tokhm'
                         style={{
-                            bottom:-1100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -182,12 +160,10 @@ export default class Arz extends Component{
                         اما هر زمان که درهای صادراتی به روی محصولی باز می‌شود قیمت محصولات افزایش می‌یابد که به عقیده کارشناسان این تصمیمات کارایی ندارد و باید با تعرفه گذاری مناسب میزان عرضه و تقاضا در بازارهای صادراتی و داخلی را تنظیم کرد.
                     </p>
                     <p
-                        className=' Gghatar'
                         style={{
-                            bottom:-1150,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -197,13 +173,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' Ghatar'
                         style={{
-                            bottom:-1400,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -215,12 +189,10 @@ export default class Arz extends Component{
                         رجبی با اشاره به اینکه در سال جاری افزایش ۴۰ درصدی دستمزد، هزینه‌های سنگینی را تحمیل خواهد کرد و ۲۴ درصد به صورت مستقیم قیمت بلیت را تحت تأثیر قرار می‌دهد، خاطرنشان کرد: در سال جاری افزایش هزینه‌های مربوط به قطعات و مواد مصرفی ۲۴۶ درصد رشد داشته و به طور مثال قیمت چرخ واگن مسافری دو میلیون و ۲۰۰ هزار تومان بود که قیمت آن به ۱۲ میلیون تومان رسیده است.
                     </p>
                     <p
-                        className='Mmoamele'
                         style={{
-                            bottom:-1500,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -230,13 +202,11 @@ export default class Arz extends Component{
 
                     </p>
                     <p
-                        className=' moamele'
                         style={{
-                           bottom:-1700,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

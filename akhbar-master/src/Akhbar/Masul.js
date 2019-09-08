@@ -10,33 +10,29 @@ export default class Masul extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='AAkss'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                         }}
                     >
                         گلایه یک مسئول از بسته شدن راه‌های صادرات برای واحدهای صنعتی
 
                     </p>
                     <p
-                        className='Fooroosh'
                         style={{
-                            bottom:-120,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

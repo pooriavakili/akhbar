@@ -10,36 +10,30 @@ export default class Tojar extends Component{
 
                 >
                     <img src={require('./../img/57888927.jpg')}
-                         className='URUPA'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='SAWwwa'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            width:"50%",
-                            fontSize:20,
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         فرصت‌هایی که برای تجار مازندرانی جذابیت دارد!
                     </p>
                     <p
-                        className=' FDR'
                         style={{
-                            bottom:-600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         استاندار مازندران گفت: با توجه به حجم تجارت مازندران، کشورهای حاشیه خزر می‌تواند بازار مناسب و جذابی برای صادرات محصولات این استان و تجار آن باشد.

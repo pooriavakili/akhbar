@@ -10,21 +10,18 @@ export default class Rayane extends Component{
 
                 >
                     <img src={require('./../img/57885893.jpg')}
-                         className='Rah'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +30,11 @@ export default class Rayane extends Component{
 
                     </p>
                     <p
-                        className=' DAR'
                         style={{
-                            bottom:-250,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -54,13 +49,10 @@ export default class Rayane extends Component{
 
                     </p>
                     <p
-                        className=' KHOD'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -70,13 +62,11 @@ export default class Rayane extends Component{
 
                     </p>
                     <p
-                        className=' AHDAF'
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -87,13 +77,10 @@ export default class Rayane extends Component{
 
                         او با بیان اینکه حمایت از تولیدکننده معنا و مفهوم خاصی دارد، دادن یارانه ارزی به تولیدکنندگان را برخلاف این مفهوم ارزیابی کرد و گفت که تولیدکنندگان باید بتوانند قیمت محصولات خود را بر اساس عرضه و تقاضا در بازار تعیین کنند. دولت نیز اگر قرار است یارانه بدهد آن را مستقیماً به مصرف‌کنندگان نهایی بدهد تا از این طریق جلوی اتلاف منابع ملی را بگیرد.                    </p>
                     <p
-                        className='DONBAL'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -103,13 +90,11 @@ export default class Rayane extends Component{
 
                     </p>
                     <p
-                        className='TOLIID'
                         style={{
-                            bottom:-1150,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

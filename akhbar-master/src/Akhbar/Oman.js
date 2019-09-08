@@ -8,22 +8,18 @@ export default class Oman extends Component{
                 <Header/>
 
                     <img src={require('./../img/57526244.jpg')}
-                      className='Ravabet'
                          style={{
-                             position:"absolute",
-                             bottom:100,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -31,13 +27,11 @@ export default class Oman extends Component{
 
                     </p>
                     <p
-                        className='Ashna'
                         style={{
-                            bottom:-500,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -57,13 +51,10 @@ export default class Oman extends Component{
                         وی افزود: در جلسه امروز نکاتی درباره احتمال بالا بودن برخی از تعرفه‌ها مطرح شد و در پنل‌های تخصصی سطح انتظارات طرفین مشخص خواهد شد.
                     </p>
                     <p
-                        className='Gostaresh'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -73,13 +64,11 @@ export default class Oman extends Component{
 
                     </p>
                     <p
-                        className='Hamel'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

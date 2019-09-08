@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Sood extends Component{
     render(){
@@ -10,22 +10,18 @@ export default class Sood extends Component{
 
                 >
                     <img src={require('./../img/57876548.jpg')}
-                         className='Rah'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -33,13 +29,11 @@ export default class Sood extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -52,13 +46,10 @@ export default class Sood extends Component{
 
                     </p>
                     <p
-                        className='MASALEE'
                         style={{
-                            bottom:-200,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -68,13 +59,11 @@ export default class Sood extends Component{
 
                     </p>
                     <p
-                        className=' MASALE'
                         style={{
-                            bottom:-450,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -85,13 +74,10 @@ export default class Sood extends Component{
 
                     </p>
                     <p
-                        className='EESTEGHBAL'
                         style={{
-                            bottom:-500,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -101,13 +87,11 @@ export default class Sood extends Component{
 
                     </p>
                     <p
-                        className='ESTEGHBAL'
                         style={{
-                            bottom:-750,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -116,13 +100,10 @@ export default class Sood extends Component{
 
                         این اقتصاددان با اشاره به استفاده صادرکنندگان از دلار ۱۰ هزار تومانی سامانه نیما برای واردات مواد اولیه و سایر عوامل تولید اضافه کرد: از طرف دیگر همین صادرکنندگان امید دارند که ارزهای حاصل از صادرات خود را به نرخ سامانه سنا بفروشند یا اگر قرار است به نرخ بازار ثانویه آن را عرضه کنند با واردکنندگان وارد مذاکره شوند.                    </p>
                     <p
-                        className=' SHAFAFF'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -134,11 +115,10 @@ export default class Sood extends Component{
                     <p
                         className=' SHAFAF'
                         style={{
-                            bottom:-1100,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

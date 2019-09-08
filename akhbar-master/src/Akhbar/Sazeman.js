@@ -1,5 +1,4 @@
 import React,{Component} from 'react'
-import App from './../App'
 import './Responsive.css'
 import Header from "./../component/Header";
 export default class Sazeman extends Component{
@@ -11,34 +10,30 @@ export default class Sazeman extends Component{
 
                 >
                     <img src={require('./../img/57881243.jpg')}
-                         className='Sanaye'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='dasty'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         رشد 52 درصدی صادرات کالاهای غیرنفتی از گمرکات آذربایجان شرقی
                     </p>
                     <p
-                        className=' KHH'
                         style={{
-                            width:"70%",
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         رئیس سازمان صنعت معدن و تجارت آذربایجان شرقی گفت: طی سال گذشته، دو میلیون و 100 هزارتن کالای غیر نفتی به ارزش 1.8 میلیارد دلار از گمرکات استان به خارج از کشور صادر شد .

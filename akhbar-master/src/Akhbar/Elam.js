@@ -10,35 +10,32 @@ export default class Elam extends Component{
 
                 >
                     <img src={require('./../img/577878.jpg')}
-                         className='AKSHEMAYAT'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='HHEMAYAT'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         آمار صادرات و واردات در فروردین ماه اعلام شد
 
                     </p>
                     <p
-                        className='HEMAYAT '
+
                         style={{
-                            bottom:-400,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت ایران جدیدترین آمارها از وضعیت آمارهای تجاری ایران در نخستین ماه از سال ۱۳۹۸ را اعلام کرد.

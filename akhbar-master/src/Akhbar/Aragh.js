@@ -10,20 +10,19 @@ export default class Aragh extends Component{
 
                 >
                     <img src={require('./../img/57800959.jpg')}
-                         className='ARAGH'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='SSAaxa'
+
                         style={{
-                           bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات به عراق تا ۲ سال دیگر باید به ۲۰ میلیارد دلار برسد
@@ -31,14 +30,11 @@ export default class Aragh extends Component{
 
                     </p>
                     <p
-                        className='BCDD'
-
                         style={{
-                            bottom:-1100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

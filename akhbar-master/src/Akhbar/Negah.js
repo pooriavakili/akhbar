@@ -10,33 +10,31 @@ export default class Negah extends Component{
 
                 >
                     <img src={require('./../img/57464404.jpg')}
-                         className='NEGAH'
+
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
 
-                        className='GDFE'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         گرمابی: نگاه به صادرات استراتژیک است
                     </p>
                     <p
-                        className=' KHKI'
+
                         style={{
-                            top:420,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

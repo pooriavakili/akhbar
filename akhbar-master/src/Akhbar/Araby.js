@@ -10,33 +10,30 @@ export default class Araby extends Component{
 
                 >
                     <img src={require('./../img/57882796.jpg')}
-                         className='Khormaa'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DARSADD'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         سهم ایران از واردات کشورهای عربی تنها ۳ درصد است
 
                     </p>
                     <p
-                        className='SCSS'
+
                         style={{
-                            bottom:-300,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
 

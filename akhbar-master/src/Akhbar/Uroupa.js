@@ -10,34 +10,30 @@ export default class Uroupa extends Component{
 
                 >
                     <img src={require('./../img/57817789.jpg')}
-                         className='URUPA'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='SAWwwa'
                         style={{
-                          bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         نگاهی به جدیدترین وضعیت حضور صادراتی ایران در اروپا
                     </p>
                     <p
-                        className=' FDR'
                         style={{
-                            bottom:-250,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         جدیدترین بررسی‌های صورت گرفته از وضعیت صادرات کالاهای ایرانی به کشورهای اروپایی نشان می‌دهد که در سال‌های گذشته برخی از رقبای منطقه‌ای توانسته‌اند جای ایران را در این اتحادیه پر کنند.

@@ -10,32 +10,28 @@ export default class Mahal extends Component{
 
                 >
                     <img src={require('./../img/57783054.jpg')}
-                         className='MaHHal'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='BCDFD'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         واردات از محل ارز صادراتی انجام شود
                     </p>
                     <p
-                        className=' Mamnooee'
                         style={{
-                            top:600,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
 

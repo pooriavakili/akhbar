@@ -10,32 +10,29 @@ export default class Had extends Component{
 
                 >
                     <img src={require('./../img/57887306.jpg')}
-                         className='america'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='HADD'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         حمایت از صادرکنندگان در حد حرف نماند
                     </p>
                     <p
-                        className=' bjj'
+
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

@@ -10,20 +10,18 @@ export default class Bargarar extends Component{
 
                 >
                     <img src={require('./../img/57725293.jpg')}
-                         className='Saderaat'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -32,13 +30,11 @@ export default class Bargarar extends Component{
 
                     </p>
                     <p
-                        className=' Samane'
                         style={{
-                            bottom:-50,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -53,12 +49,11 @@ export default class Bargarar extends Component{
 
                             </p>
                     <p
-                        className='MMely'
+
                         style={{
-                            bottom:-130,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -68,13 +63,11 @@ export default class Bargarar extends Component{
 
                     </p>
                     <p
-                        className=' Mely'
                         style={{
-                            bottom:-450,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -86,12 +79,10 @@ export default class Bargarar extends Component{
                         این قضیه در مورد دلالی و صادرات محصولات خام کشاورزی بسیار سودآورتر هم می‌شود. کسانی که دسترنج کشاورزان که با آب و امکانات سرزمینی محدود کشور تولید شده است را بدون اینکه حتی کمترین ریسکی را بابت تولید آن متحمل می‌شوند به کشورهای دیگر صادر می‌کنند.
                     </p>
                     <p
-                        className='Seify'
                         style={{
-                            bottom:-550,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -101,13 +92,11 @@ export default class Bargarar extends Component{
 
                     </p>
                     <p
-                        className=' Govat'
                         style={{
-                            bottom:-1000,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

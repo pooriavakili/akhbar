@@ -10,35 +10,32 @@ export default class Eslah extends Component{
 
                 >
                     <img src={require('./../img/57822821.jpg')}
-                         className='AKSHEMAYAT'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='HHEMAYAT'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         اصلاح سیاست‌های ارزی برای حمایت از صادرات
 
                     </p>
                     <p
-                        className='HEMAYAT '
                         style={{
-                            bottom:-170,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                           fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
+                            fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت گفت: باید به منظور جلوگیری از سوءاستفاده‌هایی که در سال گذشته از سوی عده‌ای صورت گرفت، سیاست‌های ارزی کشور در سال جاری تغییر کند.

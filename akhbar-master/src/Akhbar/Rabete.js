@@ -10,32 +10,29 @@ export default class Rabete extends Component{
 
                 >
                     <img src={require('./../img/57856868.jpg')}
-                         className='Doolar'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Bargarar'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         برقراری رابطه مستقیم میان صرافی‌های ایران و عراق
                     </p>
                     <p
-                        className='enteghal'
                         style={{
-                            bottom:-200,
-                            position:"absolute",
-                            right:200,
-                            width:'70%',
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

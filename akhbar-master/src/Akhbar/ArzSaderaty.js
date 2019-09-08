@@ -12,32 +12,29 @@ export default class ArzSaderaty extends Component{
                     <img src={require('./../img/57340470.jpg')}
                          className='AVAREZZ'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         قوه قضائیه با کسانی که ارز صادراتی را به کشور بر نگرداندند برخورد کند
 
                     </p>
                     <p
-                        className=' BARABAR'
+
                         style={{
-                            bottom:-250,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

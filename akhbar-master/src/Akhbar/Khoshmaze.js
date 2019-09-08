@@ -10,34 +10,31 @@ export default class Khoshmaze extends Component{
 
                 >
                     <img src={require('./../img/57834989.jpg')}
-                         className='KHORMAAa'
                          style={{
-                             position:"absolute",
-                             bottom:280,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='KAMBOUD'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         محصولاتی خوشمزه‌ اما بدون بسته‌بندی شیک صادراتی
                     </p>
                     <p
-                        className=' SSDA'
                         style={{
-                            bottom:-1600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
+                            direction:"rtl"
                         }}
                     >
                         حوزه کشاورزی یکی از مزیت‌های مهم اقتصادی در خراسان شمالی است و وجود ظرفیت‌های مهم در این حوزه می‌تواند زمینه بسیار مهمی برای صادرات محور کردن خراسان شمالی برای ارسال محصولات کشاورزی به کشورهای هدف و همچنین محقق کردن شعار رونق تولید باشد، اما وجود زیرساخت‌های معیوب در این حوزه سبب شده تا صادرات محصولات کشاورزی در این استان به کشورهای دیگر چندان چشم گیر نباشد.

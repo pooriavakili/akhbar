@@ -1,5 +1,4 @@
 import React,{Component} from 'react'
-import App from './../App'
 import Header from "./../component/Header";
 export default class Moz extends Component{
     render(){
@@ -10,21 +9,18 @@ export default class Moz extends Component{
 
                 >
                     <img src={require('./../img/57319358.jpg')}
-                         className='Rah'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +29,11 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -52,12 +46,10 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className=' BADEMJAN'
                         style={{
-                            bottom:-150,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -68,13 +60,11 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className=' BBADEMEJAN'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -85,13 +75,10 @@ export default class Moz extends Component{
 
                         صادرات گوجه‌فرنگی تازه یا سرد کرده نیز در همین مدت ۵۷۲ هزار و ۸۵۵ تن بوده که معادل ۲۴۴ میلیون دلار به ارزش ریالی ۱۳۶۹ میلیارد و ۶۳۰ میلیون تومان است.                    </p>
                     <p
-                        className='PIAZ'
                         style={{
-                            bottom:-400,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -101,13 +88,11 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className='PPIAZ'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -116,13 +101,10 @@ export default class Moz extends Component{
 
                         اما صادرات گروه کالایی "پیاز و موسیر" که در ماه‌های بعد از عید دچار افزایش قیمت در بازار شده است تا پایان بهمن ماه سال گذشته معادل ۱۲۴ میلیون دلار و به میزان ۳۴۲ هزار و ۶۷۱ تن بوده است.                    </p>
                     <p
-                        className=' KAKAU'
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -132,13 +114,12 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className=' KKAUU'
+
                         style={{
-                            bottom:-850,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -147,15 +128,13 @@ export default class Moz extends Component{
 
                         تا پایان بهمن‌ماه پارسال ۸۱۵۲ تن "دانه کاکائو کامل یا خرد شده، خام یا بو داده" نیز به ارزش ۳۲ میلیون و ۷۶۳ هزار دلار معادل ۱۳۶ میلیارد تومان به کشور وارد شده است.
 
-                    </p>
+                    </p
+                   >
                     <p
-                        className=' LIPY'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -165,13 +144,11 @@ export default class Moz extends Component{
 
                     </p>
                     <p
-                        className=' Tokhm'
                         style={{
-                            bottom:-1200,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

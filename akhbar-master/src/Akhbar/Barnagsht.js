@@ -10,21 +10,18 @@ export default class Barnagsht extends Component{
 
                 >
                     <img src={require('./../img/57385681.jpg')}
-                         className='Rah'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +30,11 @@ export default class Barnagsht extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -49,13 +44,10 @@ export default class Barnagsht extends Component{
                         به گزارش ایسنا، در پی اعلام وزیر امور اقتصادی و دارایی در دو نوبت مبنی بر عدم بازگشت ارزهای حاصل از صادرات، بسیاری از صادرکنندگان در رسانه‌های خود این موضع را گرفتند که بخش زیادی از ارزهای صادراتی را در قالب واردات مواد اولیه هزینه کرده‌اند؛ ادعایی که معاون اقتصادی وزارت اقتصاد که چند هفته‌ای است سمت خود را واگذار کرده است، پاسخ آن را منفی می‌داند.
                     </p>
                     <p
-                        className=' ARZHA'
                         style={{
-                            bottom:-200,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -65,13 +57,11 @@ export default class Barnagsht extends Component{
 
                     </p>
                     <p
-                        className=' AARZHA'
                         style={{
-                            bottom:-500,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -80,12 +70,10 @@ export default class Barnagsht extends Component{
 
                         وی با ذکر این مقدمات تاکید کرد: در حالی که برخی از صادرکنندگان ادعا می‌کنند با ارز حاصل از صادرات خود، مواد اولیه وارد کرده‌اند اما ۳۰ میلیارد دلار از ارز حاصل از صادرات غیرنفتی در بین هیچ کدام از موارد مربوط به واردات مواد اولیه نبوده است و عملاً مشمول صادرات بدون بازگشت ارز می‌شوند.                    </p>
                     <p
-                        className='MMesdagh'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -96,25 +84,21 @@ export default class Barnagsht extends Component{
 
                     </p>
                     <p
-                        className='MESDAGH'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
                     >
                         معاون سابق وزیر امور اقتصادی و دارایی با بیان اینکه بخش زیادی از ارز حاصل از صادرات هنوز در خارج از کشور است، ادامه داد: ۳۰ میلیارد دلار از مجموع ۴۰ میلیارد دلار ارزهای حاصل از صادرات نه به صورت کالا و نه به هیچ صورت دیگری وارد کشور نشده است. در شرایطی که دولت به خاطر فشارها برای صادرات نفت دچار مشکل است این بخش خصوصی است که باید کمک کند چرخه تجارت خارجی بچرخد و این زمانی است که ما بتوانیم ارز را به صورت کالا یا به صورت ارز وارد کنیم.                    </p>
                     <p
-                        className=' MMASHMUL'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -125,13 +109,11 @@ export default class Barnagsht extends Component{
 
                     </p>
                     <p
-                        className=' MASHMUL'
                         style={{
-                            bottom:-1300,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

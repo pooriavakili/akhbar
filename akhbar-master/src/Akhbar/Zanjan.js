@@ -10,34 +10,30 @@ export default class Zanjan extends Component{
 
                 >
                     <img src={require('./../img/57882796.jpg')}
-                         className='Zohooor'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='FDSEE'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات 203 میلیون دلاری از شهرک‌های صنعتی استان
                     </p>
                     <p
-                        className=' KHANEGHY'
                         style={{
-                            bottom:-400,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         مدیرعامل شرکت شهرک‌های صنعتی استان زنجان گفت: پارسال 203 میلیون دلار کالا از شهرک‌های صنعتی استان صادر شده است.

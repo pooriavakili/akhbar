@@ -10,34 +10,29 @@ export default class Sharayet extends Component{
 
                 >
                     <img src={require('./../img/57836424.jpg')}
-                         className='Mojaj'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         شرایط صادرات محصولات فلزی + اسامی شرکت‌های مجاز
 
                     </p>
                     <p
-                        className=' BARABAR'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

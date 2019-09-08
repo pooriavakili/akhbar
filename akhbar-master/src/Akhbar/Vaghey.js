@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Vaghey extends Component{
     render(){
@@ -10,21 +10,18 @@ export default class Vaghey extends Component{
 
                 >
                     <img src={require('./../img/57324240.jpg')}
-                         className='Rah'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -33,13 +30,11 @@ export default class Vaghey extends Component{
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -52,13 +47,10 @@ export default class Vaghey extends Component{
 
                     </p>
                     <p
-                        className=' VABESTEGHYY'
                         style={{
-                            bottom:-150,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -68,13 +60,11 @@ export default class Vaghey extends Component{
 
                     </p>
                     <p
-                        className='VABESTEGHY'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -87,13 +77,10 @@ export default class Vaghey extends Component{
 
                         این مقام مسئول کارگری با اشاره به پتانسیل‌های بالای گردشگری در کشور، گفت: ایران از جاذبه‌ها و دیدنی‌های بسیاری برخودرار است ولی متأسفانه آنها را به جهانیان معرفی نکرده‌ایم. شیراز و اصفهان و شهرهایی هم که گردشگران چند کشور از آنها استقبال می‌کنند همه از تبلیغاتی بوده که در گذشته صورت گرفته است؛ لذا ما هنوز از فرصت‌های موجود استفاده نکرده‌ایم و از معرفی جاذبه‌های گردشگری خود به دنیا غفلت کرده‌ایم. در حالی که چینی‌ها مدت‌هاست که شروع کرده‌اند و ضمن معرفی نقاط گردشگری خود، مدیریت ترانسفر، بلیط و جابجایی گردشگران چینی را هم خود به دست گرفته‌اند.                    </p>
                     <p
-                        className='Servatt'
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -105,11 +92,10 @@ export default class Vaghey extends Component{
                     <p
                         className='Servat'
                         style={{
-                            bottom:-1000,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

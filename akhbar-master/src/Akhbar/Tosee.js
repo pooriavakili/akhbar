@@ -10,32 +10,29 @@ export default class Tosee extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='Tose'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DSDss'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         برنامه‌ریزی ۱۵۰ واحد تولیدی ایرانی برای توسعه مشارکت اقتصادی در عراق
                     </p>
                     <p
-                        className=' VCX'
+
                         style={{
-                           bottom:-200,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
 

@@ -10,36 +10,32 @@ export default class Maskan extends Component{
 
                 >
                     <img src={require('./../img/9-811-th2.jpg')}
-                         className='Ffarar'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='tehran'
                         style={{
-                            bottom:530,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         گرانی مسکن ساکنان تهران را فراری داد
 
                     </p>
                     <p
-                        className='czkdk'
                         style={{
-                            bottom:-200,
-
-                            width:"70%",
-                            direction:"rtl",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         رشد قیمت مسکن در سال‌های اخیر و کاهش قدرت خرید مردم در بازار مسکن در کنار آمار مهاجرت از تهران به دیگر شهرها به ویژه استان‌های البرز و گیلان گواه آن است که مهاجرت از تهران روند صعودی به خود گرفته است.
@@ -54,12 +50,11 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className='KartSookht'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         خبری از کارت سوخت نیست
@@ -68,28 +63,24 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className=' Sookht'
                         style={{
-                           bottom:-500,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            direction:"rtl",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         شب گذشته بود که وزیر اقتصاد از بررسی سهمیه‌بندی دوباره سوخت در هیأت دولت خبر داد و این موضوع عاملی شد تا بار دیگر بازگشت کارت سوخت که البته چند روز قبل تر اعلام شده بود که مردم کارت سوخت‌های خود را در دسترس قرار دهند، قوت بگیرد که در جدیدترین اطلاعیه شرکت ملی پخش اعلام شده افراد منتظر کارت سوخت جدید نباشند، زیرا با توجه به فرآیند ثبت نام کارت سوخت کارت‌های بانکی که به نام صاحب خودرو به ثبت رسیده جایگزین کارت‌های سوخت قدیمی که گم شده‌اند، می‌شود.
 
                     </p>
                     <p
-                        className='Sadee'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         ممنوعیت صادرات، ساده‌ترین راه کنترل بازار
@@ -98,16 +89,13 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className=' Kontrol'
                         style={{
-                            bottom:-1200,
-
-                           width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         در روزهای گذشته قیمت بسیاری از کالاهای مصرفی ماه مبارک رمضان اندکی افزایش قیمت به خود گرفت که این موضوع ریشه در نوسانات قیمتی سال گذشته دارد در این زمینه در روز جاری حسن روحانی رئیس جمهوری کشور به چهار وزیر کابینه دستور داد تا اقدامات لازم و مؤثر در زمینه توزیع کالا و مقابله با گران فروشی را انجام دهند.
@@ -122,12 +110,11 @@ export default class Maskan extends Component{
 
                         حال با توجه به این شرایط نایب رئیس اتاق اصناف ایران معتقد است افزایش قیمت تنها مربوط به مرحله توزیع کالا نیست و سوداگران بلای جان بازارهای اقتصادی هستند و اگر مصوبه و اقدامات دولتی در زمینه کنترل بازار به موقع به اجرا دربیاید از افزایش قیمت‌ها جلوگیری خواهد شد. در کنار نظر مجتبی صفایی، خسرو گران سایه - رئیس کمیسیون بازرگانی داخلی اتاق بازرگانی ایران - معتقد است تا زمانی که دولت سختگیری‌های خود در عرصه واردات را ادامه دهد نمی‌توان انتظار داشت که بازار کالاهای اساسی به ثبات برسد.                    </p>
                     <p
-                        className='Nnan'
                         style={{
-                            bottom:-1250,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         گرانی نان، ممنوع
@@ -136,16 +123,13 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className=' Nan'
                         style={{
-                            bottom:-1500,
-                            position:"absolute",
-
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            right:200,
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         در همین حال و احوال بازار برخی اخبار حکایت از آن دارد که قیمت نان اندکی افزایش یافته و وزن چانه آن آب رفته است که در این زمینه بیژن نوروز مقدم رئیس اتحادیه نانوایان سنتی به ایسنا اعلام کرده که قیمت نان و آرد در نانوایی‌های دریافت کننده سهمیه آرد دولتی هیچ افزایش قیمتی نداشته و اگر این موضوع از سوی نانوایی‌ها صورت گرفته باشد مرتکب خلاف و کار غیرقانونی شده‌اند.
@@ -154,12 +138,10 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className='Ggeran'
                         style={{
-                            bottom:-1550,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         دلار گران نمی‌شود
@@ -169,18 +151,13 @@ export default class Maskan extends Component{
 
                     </p>
                     <p
-                        className=' geran'
                         style={{
-                           bottom:-1900,
-                            width:"70%",
-
-
-                            direction:"rtl",
-
-                            right:200,
-                            position:"absolute",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         بازار ارز یکی از بازارهای استراتژیک اقتصاد ایران محسوب می‌شود و همواره نوسانات قیمتی آن مورد توجه مردم و فعالان اقتصادی بوده است حال جای سوال دارد که این بازار در سال جاری چه آینده‌ای را برای خود رقم می‌زند که محمد باقجری-اقتصاددان معتقد است که نوسانات قبلی دلار دیگر تکرار نخواهد شد و اقدامات بانک مرکزی در ایجاد بازار متشکل ارزی روند باثبات تری در پیش خواهد داشت.

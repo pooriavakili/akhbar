@@ -10,32 +10,28 @@ export default class Moarefy extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='MOHLAT'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='fgfkd'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         اولویت‌های صادراتی زنجان به عراق معرفی شود
                     </p>
                     <p
-                        className=' jfkfjjk'
                         style={{
-                            bottom:-500,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

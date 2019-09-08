@@ -10,33 +10,30 @@ export default class Barabar extends Component{
 
                 >
                     <img src={require('./../img/57779724.jpg')}
-                         className='DOOO'
+
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                            right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                           bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         دلیل افزایش دو برابری قیمت گوجه فرنگی
 
                     </p>
                     <p
-                        className=' BARABAR'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

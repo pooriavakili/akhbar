@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Poreh extends Component{
     render(){
@@ -11,19 +11,17 @@ export default class Poreh extends Component{
                 >
                     <img src={require('./../img/57300672.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Pore'
                     />
                     <p
-                        className='Dakhel'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:450,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -31,15 +29,13 @@ export default class Poreh extends Component{
 
                     </p>
                     <p
-                        className='Gorbe'
                         style={{
-                           top:450,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         علیرغم اینکه در شرایط فعلی اقتصاد، چگونگی دخل و خرج ارزی بیش از پیش باید مورد توجه قرار گیرد، آمارها چیز دیگری می‌گوید؛ چراکه در مواردی ارز آن هم از نوع دولتی برای واردات محصولات لوکس و غیر ضرور از جمله غذای سگ و گربه و پوره میوه از جیب کشور رفته و در ازای آن قرار است ارزهایی حاصل از صادرات محصولات آب‌بر و یارانه‌بر کشاورزی به کشور بیاید که اگر بیاید...
@@ -49,12 +45,10 @@ export default class Poreh extends Component{
                         بر این اساس به نظر می‌رسد باید در واردات برخی اقلام غیر ضروری به کشور تجدیدنظر کرد. برای مثال واردات محصولاتی مانند غذای گربه و سگ، موز، دانه کاکائو، پوره موز، پشن فروت، لیپی و آناناس که اقلامی لوکس برای طبقات خاص هستند، آن هم در شرایطی که برای تأمین منابع محدود ارزی، صادرات مواد خام، محصولات کشاورزی و محصولات اساسی همچون سیب‌زمینی و پیاز انجام می‌شود، باید در آن تجدیدنظر کرد.
                     </p>
                     <p
-                          className='PPore'
                         style={{
-                           bottom:-200,
-                            position:"absolute",
-                            right:400,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -64,15 +58,13 @@ export default class Poreh extends Component{
 
                     </p>
                     <p
-                        className='Ggorbeh'
                         style={{
-                          bottom:-1100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         همانطور که می‌دانیم صادرات محصولاتی مانند سیب‌زمینی به دلیل آب‌بری بسیار بالایی که دارند صرفه اقتصادی چندانی _جز برای دلالان_ ندارد. استفاده از اقلیم خشک سرزمین ایران و انواع یارانه‌های دولتی برای تهیه و حمل و نقل این محصولات، صادرات این گونه محصولات را برای کشور به صرفه نمی‌کند.

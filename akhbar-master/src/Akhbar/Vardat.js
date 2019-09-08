@@ -10,32 +10,28 @@ export default class Vardat extends Component{
 
                 >
                     <img src={require('./../img/57300672.jpg')}
-                         className='VARDATt'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='VARdatt'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         با نگاه وارداتی نمی‌توان شعار حمایت از تولید و اشتغال سر داد
                     </p>
                     <p
-                        className=' WDDEE'
                         style={{
-                            bottom:-600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

@@ -10,35 +10,31 @@ export default class Eco extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='ECCO'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DOLARR'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         افزایش صادرات به کشورهای عضو اکو، راهبرد صنعتی- تجاری ایران است
 
                     </p>
                     <p
-                        className=' RGFRE'
                         style={{
-                            bottom:-200,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         وزیر صنعت، معدن و تجارت در دیدار با دبیرکل سازمان همکاری‌های اقتصادی اکو بر ضرورت افزایش صادرات و رونق تولید و توسعه اقتصادی پایدار کشورهای عضو اکو تأکید کرد.

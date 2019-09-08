@@ -10,35 +10,30 @@ export default class Siasat extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='siasat'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='padide'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:300,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         شاهد ظهور پدیده صادرکنندگان موقت هستیم/ سیاست‌های ارزی نتیجه مطلوب نداشت
                     </p>
                     <p
-                        className=' jbsdanjs'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            width:"70%",
-                            direction:"rtl",
-
-                            right:200,
-                            fontSize:22
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت ایران با بیان اینکه سیاست‌های ارزی کشور در سال گذشته باعث شد بخش مهمی از صادرکنندگان حرفه‌ای پا پس بکشند، گفت: سال گذشته شاهد ظهور پدیده‌ای به نام صادرکنندگان موقت بودیم که اصلاً سابقه صادراتی ندارند، تعدادشان زیاد است و ارز حاصل از صادرات آن‌ها نیز به شیوه‌ای که بانک مرکزی در نظر دارد به کشور باز نمی‌گردد
@@ -52,12 +47,11 @@ export default class Siasat extends Component{
                         مودودی با اشاره به اینکه هدف از تشکیل شورای راهبردی توسعه صادرات غیر نفتی در سازمان توسعه تجارت استفاده از نظرات کارشناسی نخبگان صادراتی است، اظهار کرد: با توجه به موانعی که به ویژه در بخش صادرات نفت در تجارت بین‌المللی وجود دارد، باید حداکثر استفاده را از ظرفیت بخش خصوصی و صادرات غیر نفتی داشته باشیم
                     </p>
                     <p
-                        className='Sshoora'
                         style={{
-                           bottom:-400,
-                            position:"absolute",
-                            right:300,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         درخواست اعضای شورای راهبردی توسعه صادرات غیرنفتی چیست؟
@@ -69,17 +63,13 @@ export default class Siasat extends Component{
 
                     </p>
                     <p
-                        className=' Shoora'
                         style={{
-                            bottom:-770,
-                            position:"absolute",
-
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            width:"70%",
-                            direction:"rtl",
-
-                            right:200,
+                            direction:"rtl"
 
                         }}
                     >
@@ -94,12 +84,11 @@ export default class Siasat extends Component{
 
                     </p>
                     <p
-                        className='Eeghlim'
                         style={{
-                            bottom:-850,
-                            position:"absolute",
-                            right:350,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         چرا اقلیم کردستان عراق واردات سیمان را ممنوع کرد؟
@@ -108,18 +97,13 @@ export default class Siasat extends Component{
 
                     </p>
                     <p
-                        className=' Eghlim'
                         style={{
-                           bottom:-1150,
-                            position:"absolute",
-
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            right:200,
-
-
-                            fontSize:22
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت ایران در ادامه با اشاره به اینکه عراق و سوریه کشورهایی مستعد برای بازسازی هستند، گفت: اخیراً در اقلیم کردستان عراق شاهد سرمایه‌گذاری‌های زیادی از طرف خارجی‌ها بودیم که این سرمایه‌گذاران از دولت انتظار حمایت دارند.

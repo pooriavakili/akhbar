@@ -10,39 +10,36 @@ export default class Variz extends Component{
 
                 >
                     <img src={require('./../img/57816406.jpg')}
-                         className='VAriz'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
                         className='VARiz'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         یارانه به جیب دلالان واریز می‌شود؟
 
                     </p>
                     <p
-                        className=' kdsc'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                             width:"70%",
-                            direction:"rtl",
-                             fontSize:18,
-
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            right:200,
-
+                            direction:"rtl"
                         }}
+
+
                     >
                         با وجود آنکه ارز ۴۲۰۰ تومانی در بودجه سال جاری جای خوش کرده اما با این استدلال که یارانه ارز ۴۲۰۰ تومانی به جیب دلال واریز می‌شود، واردات کالای اساسی با این ارز تمام شده و دیگر واردات با ارز نیمایی انجام و مابه التفاوت به جیب مردم باز می‌گردد که در این راستا، ارز دولتی برای کره، حبوبات و چای حذف شده است.
 
@@ -59,12 +56,11 @@ export default class Variz extends Component{
                         حال با این شرایط طبق آمار اعلامی مرکز آمار محدوده تغییرات تورم ۱۲ ماهه در گروه عمده خوراکی‌ها، آشامیدنی‌ها و دخانیات به طور میانگین ۴۳.۶ درصد است.
                     </p>
                     <p
-                        className='gheran'
                         style={{
-                           bottom:-450,
-                            position:"absolute",
-                            right:500,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         قبض برق آنچنان گران نشد؟
@@ -73,20 +69,13 @@ export default class Variz extends Component{
 
                     </p>
                     <p
-                        className=' GgheraN'
                         style={{
-                            bottom:-700,
-                            direction:"rtl",
-                             width:"70%",
-                            position:"absolute",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            fontSize:18,
-
-
-
-                            right:200,
-
+                            direction:"rtl",
                         }}
                     >
                         وزارت نیرو طی بررسی لایحه پیشنهادی بودجه سال ۱۳۹۸ برنامه‌های ویژه‌ای برای تغییر الگو مصرف افراد پرمصرف داشت که در این زمینه راهکارهای بسیاری همچون افزایش هزینه مصرف برای پر مصرف‌ها و تغییر الگو مصرف ارائه می‌شد که طبق آخرین اخبار این دسته از مشترکان تنها با افزایش ۲۳ درصدی تعرفه برق مواجه شده‌اند.
@@ -95,11 +84,10 @@ export default class Variz extends Component{
 
                     </p>
                     <p
-                        className='KKore'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            right:500,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
 
                         }}
                     >
@@ -108,17 +96,13 @@ export default class Variz extends Component{
 
                     </p>
                     <p
-                        className=' Kore'
                         style={{
-                            bottom:-1100,
-                            position:"absolute",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            width:"70%",
-                            fontSize:18,
-
-
-                            right:200,
-                            direction:"rtl",
+                            direction:"rtl"
 
                         }}
                     >
@@ -127,11 +111,11 @@ export default class Variz extends Component{
                         اما در رابطه با خروج شرکت‌های کره‌ای از بازار لوازم خانگی ایران به نظر می‌رسد این شرکت‌ها آنچنان قصد ترک بازار ایران را ندارند و طبق اعلام وزارت صنعت، معدن و تجارت قطعات و مواد اولیه برای تولید در خاک ایران بارگیری شده است. حال با این شرایط جای سوال است که چرا دیگر شرکت‌های کره‌ای که در حوزه تولید خودرو سرمایه گذاری و فعالیت دارند با اعمال تحریم‌ها سریعاً بازار را ترک کردند اما این اتفاق در حوزه لوازم خانگی رخ نداد، در این زمینه می‌توان گفت که در حوزه لوازم خانگی بازار به این درک رسید که باید از سرمایه خارجی استفاده کرده و کارخانجات تولیدی با سرمایه گذاری و همکاری طرف کره‌ای احداث کند اما این موضوع مهم در حوزه خودروسازی با وجود آنکه قراردادی با رنو فرانسه به امضا رسید به سادگی فراموش شد یا در کلام بهتر افراد خود را به فراموشی زدند.
                     </p>
                     <p
-                        className='Nnerkh'
                         style={{
-                            bottom:-1200,
-                            position:"absolute",
-                            right:400,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
 
                         }}
                     >
@@ -142,17 +126,12 @@ export default class Variz extends Component{
                     <p
                         className=' Nerkh'
                         style={{
-                            bottom:-1500,
-                              width:"70%",
-                            direction:"rtl",
-                            position:"absolute",
-
-                           fontSize:18,
-
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-
-                            right:200,
+                            direction:"rtl"
                         }}
                     >
                         از سال گذشته بازار ارز شاهد تصمیمات مختلفی همچون تولد ارز ۴۲۰۰ تومانی، سامانه نیما و در روزهای پایانی سال گذشته اعلام حضور بازار باز بود که هر کدام از این تصمیمات بالا و پایین خاص به خود را داشت و در رابطه با دریافت ارز از سامانه نیما صف‌های طولانی همچون صف گوشت تنظیم بازار ایجاد شده بود، حال با این شرایط طبق اطلاعیه بانک مرکزی، صادرکنندگان می‌توانند ارز حاصل از صادرات را در قالب «آگهی» در سامانه جامع تجارت ثبت کنند و واردکنندگان متقاضی ارز نیز می‌توانند با آنها مذاکره و معامله کنند. البته ناگفته نماند صادرات کنندگان آنچنان علاقه‌ای به عرضه ارز خود در سامانه نیما ندارند زیرا عرضه ارز در بازار آزاد سود بیشتری را عاید آنها می‌کند.

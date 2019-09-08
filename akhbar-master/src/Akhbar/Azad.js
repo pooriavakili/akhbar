@@ -1,5 +1,4 @@
 import React,{Component} from 'react'
-import App from './../App'
 import Header from "./../component/Header";
 export default class Azad extends Component{
     render(){
@@ -11,34 +10,31 @@ export default class Azad extends Component{
                 >
                     <img src={require('./../img/57756045.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Arzz'
                     />
                     <p
-                        className='Dakhel'
                         style={{
                            bottom:500,
-                            position:"absolute",
-                            right:300,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         موافقت بانک مرکزی با واردات کالا توسط صنعتگران به جای انتقال ارز به داخل
 
                     </p>
                     <p
-                        className='Enteghall'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         با تعامل صورت گرفته با بانک مرکزی و گمرک، رویه واردات در مقابل صادرات برای مواد اولیه و واسطه‌ای بخش تولید به جای انتقال ارز به داخل کشور عملیاتی شد.
@@ -50,12 +46,10 @@ export default class Azad extends Component{
                         وزیر صنعت، معدن و تجارت با بیان اینکه ۱۲ میلیارد دلار به عراق صادرات داریم، افزود: صادرات ایران به روسیه تنها ۳۰۰ میلیون دلار است که این رقم به هیچ وجه پذیرفتنی نیست و باید راهکارهای افزایش صادرات به این کشورها را استخراج و در یک بازه زمانی مشخص به کار ببریم.
                     </p>
                     <p
-                        className='SSadert'
                         style={{
-                            bottom:-200,
-                            position:"absolute",
-                            right:400,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ظرفیت استان‌های مرزی برای افزایش صادرات
@@ -63,15 +57,13 @@ export default class Azad extends Component{
 
                     </p>
                     <p
-                        className='Azad'
                         style={{
-                           bottom:-700,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         او با اشاره به ظرفیت استان‌های مرزی برای توسعه صادرات، اظهار کرد: ضرورت دارد که استان‌های همجوار با کشورهای همسایه را فعال کنیم، چنانکه استان‌هایی همچون آذربایجان شرقی و غربی ارتباط بیشتری با تجار ترکیه و آذربایجان، سیستان و بلوچستان با پاکستان و خراسان با آسیای میانه و افغانستان دارند.

@@ -10,32 +10,31 @@ export default class Mamnooe extends Component{
 
                 >
                     <img src={require('./../img/57734417.jpg')}
-                         className='Ghalam'
+
                          style={{
-                             position:"absolute",
-                             top:200,
-                            right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='BCDFD'
+
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ممنوعیت صادرات چند قلم کالا و محصول
                     </p>
                     <p
-                        className=' Mamnooee'
+
                         style={{
-                            top:420,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
 

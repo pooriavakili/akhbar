@@ -10,35 +10,34 @@ export default class Dollar extends Component{
 
                 >
                     <img src={require('./../img/57866807.jpg')}
-                         className='DoOlar'
+
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                           right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DOLARR'
+
                         style={{
-                           bottom:500,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات 290 میلیون دلاری محصولات کشاورزی از آذربایجان شرقی
 
                     </p>
                     <p
-                        className=' RGFRE'
+
                         style={{
-                           bottom:-100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         رئیس سازمان جهادکشاورزی آذربایجان شرقی از صادرات 290 میلیون دلاری محصولات کشاورزی در سال 1397خبر داد.

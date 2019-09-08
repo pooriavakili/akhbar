@@ -10,34 +10,31 @@ export default class Gosayesh extends Component{
 
                 >
                     <img src={require('./../img/57847159.jpg')}
-                         className='Dast'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='ast'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         گشایش ارزی در راه است؟
                     </p>
                     <p
-                        className='Rahhe'
                         style={{
-                            bottom:-50,
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22
+                            direction:"rtl"
                         }}
                     >
                         در حالی که سامانه نیما سه روز دیگر باید شمع یک سالگی خود را فوت کند هنوز اختلافات بخش خصوصی و بانک مرکزی بر سر شیوه عملکرد این سامانه حل نشده است.
@@ -47,13 +44,11 @@ export default class Gosayesh extends Component{
                         اسدالله عسگراولادی، فعال بازرگانی شناخته شده حتی کار را تا بدان جا پیش برد که اعلام کرد در شصت سال گذشته برای اولین بار دو ماهی است دست به صادرات نزده است.
                     </p>
                     <p
-                        className='Ssaderat'
                         style={{
-                           bottom:-200,
-
-                            position:"absolute",
-                            right:400,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         اما ماجرای واقعی ارزهای صادراتی چیست؟
@@ -61,17 +56,13 @@ export default class Gosayesh extends Component{
 
                     </p>
                     <p
-                        className='Saderatt'
                         style={{
-                            bottom:-800,
-                            position:"absolute",
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            right:200,
-
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         ایران در شرایط کنونی در مضیقه ارزی قرار دارد. مشکلات مرتبط با تبادلات بانکی در اثر تشدید تحریم‌های آمریکا علیه ایران از یک سو و کاهش درآمدهای نفتی از سوی دیگر سبب شده ایران با دشواری‌هایی در حوزه تأمین درآمدهای ارزی خود روبرو باشد.
@@ -89,12 +80,10 @@ export default class Gosayesh extends Component{
                         محمد لاهوتی درباره جزئیات موانع بازگشت ارز حاصل از صادرات به کشور توضیح داد: اولاً واردات در مقابل صادرات و روش‌های واگذاری ارز حاصل از آن به واردکنندگان محدودیت‌هایی را ایجاد کرده بود که اگرچه بخشی از آن تسهیل شده اما همچنان مشکلاتی در این زمینه وجود دارد.
                     </p>
                     <p
-                        className='Pool'
                         style={{
-                            bottom:-900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         چقدر از پول برگشت؟
@@ -102,17 +91,13 @@ export default class Gosayesh extends Component{
 
                     </p>
                     <p
-                        className='Bargasht'
                         style={{
-                           bottom:-1200,
-                            position:"absolute",
-
-                            fontSize:20,
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-
-                            right:200
+                            direction:"rtl"
                         }}
                     >
                         عضو کمیسیون اقتصادی توضیحاتی در این حوزه داده است. شهاب نادری با بیان اینکه بر اساس آمارها تنها حدود نیمی از پول حاصل از صادرات به اقتصاد بازمی‌گردد، افزود: بر این اساس بانک مرکزی و دولت باید راهکارهای را برای این موضوع بیاندیشند و به دنبال این باشند تا پول حاصل از صادرات به اقتصاد و سامانه نیما بازگردد زیرا کشور به این ارز نیازمند است.

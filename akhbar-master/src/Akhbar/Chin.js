@@ -11,34 +11,28 @@ export default class Chin extends Component{
                 >
                     <img src={require('./../img/57660766.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='CHIN'
                     />
                     <p
-                        className='CHINN'
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:400,
-
-                            direction:"rtl",
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         چین، بزرگ‌ترین صادرکننده به ایران در سال گذشته
 
                     </p>
                     <p
-                        className=' bdcbs'
                         style={{
-                            bottom:-80,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -54,12 +48,10 @@ export default class Chin extends Component{
                         ایران در سال ۱۳۹۶ بیش از چهار میلیون و ۳۰۰ هزار تن کالا از چین وارد کرده بود.
                     </p>
                     <p
-                        className='Eemarat'
                         style={{
-                            bottom:-150,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -70,13 +62,11 @@ export default class Chin extends Component{
 
                     </p>
                     <p
-                        className=' emarat'
                         style={{
-                            bottom:-400,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

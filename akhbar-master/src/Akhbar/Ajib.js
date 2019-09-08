@@ -10,33 +10,32 @@ export default class Ajib extends Component{
 
                 >
                     <img src={require('./../img/57640457.jpg')}
-                         className='Sang'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
+
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+
+
+                            fontSize:'1.3em'
                         }}
                     >
                         ممنوعیت واردات برخی کالاها از سوی عراق موضوع عجیبی نیست
 
                     </p>
                     <p
-                        className=' SAngAhan'
                         style={{
-                            bottom:-650,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

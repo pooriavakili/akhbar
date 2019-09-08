@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import './Responsive.css'
 import Header from "./../component/Header";
 export default class Sangin extends Component{
@@ -11,34 +11,30 @@ export default class Sangin extends Component{
 
                 >
                     <img src={require('./../img/57876002.jpg')}
-                         className='SANNGIN'
                          style={{
-                             position:"absolute",
-                             top:270,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='dasty'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         عوارض سنگین برای صادرات خرما
                     </p>
                     <p
-                        className=' BARAY '
                         style={{
-                            width:"70%",
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         صادرات خرماهای مضافتی با عوارضی سنگین معادل ۸۰۰۰ تومان برای هر کیلوگرم خرمای مضافتی و ۵۰۰۰ تومان برای هر کیلوگرم خرمای کبکاب مواجه شد.

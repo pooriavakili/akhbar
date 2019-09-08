@@ -12,18 +12,19 @@ export default class Angour extends Component{
                     <img src={require('./../img/57874241.jpg')}
                          className='Sang'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jkjk'
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+
+
+                            fontSize:'1.3em'
                         }}
                     >
                         تلاش ۲۰ ساله محققان دانشگاه تهران در تولید ۸ رقم انگور بی‌دانه حبه درشت صادراتی
@@ -32,11 +33,10 @@ export default class Angour extends Component{
                     <p
                         className=' SAngAhan'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

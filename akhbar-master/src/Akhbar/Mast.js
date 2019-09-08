@@ -10,34 +10,31 @@ export default class Mast extends Component{
 
                 >
                     <img src={require('./../img/57371879.jpg')}
-                         className='MMast'
                          style={{
-                             position:"absolute",
-                             top:200,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='MMASTt '
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ماست ایران در آمریکا
                     </p>
                     <p
-                        className=' EDSW'
+
                         style={{
-                            top:500,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:'rtl'
+                            direction:"rtl"
                         }}
                     >
                         ایران در سال گذشته بیش از ۹۵ هزار تن ماست صادر کرده است که در میان کشورهای مقصد نام آمریکا نیز به چشم می‌خورد.

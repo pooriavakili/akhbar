@@ -10,20 +10,18 @@ export default class Gherany extends Component{
 
                 >
                     <img src={require('./../img/57472668.jpg')}
-                         className='GOZEE'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='GOZE'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -32,13 +30,11 @@ export default class Gherany extends Component{
 
                     </p>
                     <p
-                        className=' dsnjd'
                         style={{
-                            bottom:-270,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -55,13 +51,10 @@ export default class Gherany extends Component{
 
                     </p>
                     <p
-                        className='Maghtaee'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
-                            fontFamily:"XBKayhan",
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -72,13 +65,11 @@ export default class Gherany extends Component{
 
                     </p>
                     <p
-                        className=' Maghtae'
                         style={{
-                            bottom:-1000,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

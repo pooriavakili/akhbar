@@ -10,34 +10,30 @@ export default class Pave extends Component{
 
                 >
                     <img src={require('./../img/57540698.jpg')}
-                         className='PPave'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                           right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Namayande'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:280,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         نماینده پاوه: اجازه ندهید کالای کشاورزی و صنعتی ایران به نام دیگر کشورها عرضه شود
                     </p>
                     <p
-                        className=' Pave'
                         style={{
-                            bottom:-20,
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         نماینده مردم پاوه در مجلس خطاب به وزیر کشور خواستار بازگشایی تبادلات مرزی کولبران شد و افزود: چرا اجازه می‌دهید سایر کشورها جای ما را در مبادلات مرزی بگیرند و کالاهای کشاورزی و صنعتی ایرانی را به نام خودشان به بازارهای جهانی عرضه کنند؟

@@ -10,34 +10,30 @@ export default class Solulez extends Component{
 
                 >
                     <img src={require('./../img/57752306.jpg')}
-                         className='SOLULES'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jksadk'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات محصولات سلولزی افزایش می‌یابد
                     </p>
                     <p
-                        className=' dnnxcdv'
                         style={{
-                            top:520,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         رئیس هیئت مدیره انجمن صنایع سلولزی بهداشتی ایران از احتمال افزایش صادرات محصولات سلولزی به کشورهای همسایه خبر داد و تاکید کرد که در حال حاضر هیچ مشکلی در تولید محصولات سلولزی و تأمین بازار وجود ندارد.

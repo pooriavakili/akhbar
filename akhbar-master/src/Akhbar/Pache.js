@@ -10,32 +10,28 @@ export default class Pache extends Component{
 
                 >
                     <img src={require('./../img/57301322.jpg')}
-                         className='PACHE'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='gfmm'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         کاهش قیمت کله پاچه به دنبال واردات دام زنده
                     </p>
                     <p
-                        className=' fjkfgjk'
                         style={{
-                            bottom:-300,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

@@ -12,21 +12,18 @@ export default class Afzayesh extends Component{
 
                 >
                     <img src={require('./../img/1408517374525_davoud ghahrdar-6-th2.jpg')}
-                         className='Zzendegy'
                          style={{
-                             position:"absolute",
-                            bottom:250,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className=' Zendegy'
-
                         style={{
-                           bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         افزایش هزینه‌های زندگی
@@ -34,15 +31,13 @@ export default class Afzayesh extends Component{
 
                     </p>
                     <p
-                        className=' Afzayesh'
                         style={{
-                            bottom:-250,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         نوسانات ارزی سال گذشته که همچنان آثار آن در سال جاری مشهود است هزینه خانوار که با کاهش قدرت خرید همراه بوده را بیش از گذشته افزایش داده است و به طور میانگین هزینه خانوار در فروردین ماه سال جاری نسبت به مدت مشابه سال گذشته با رشد ۵۰ درصدی روبرو شده است.
@@ -56,12 +51,10 @@ export default class Afzayesh extends Component{
                         در بین خوراکی‌ها گروه گوشت قرمز و سفید با ۱۱۶ درصد و گروه گوشت قرمز و ماکیان با ۱۱۷ درصد و همچنین سبزیجات با ۱۵۷ درصد بالاترین تورم را در فروردین امسال نسبت به سال گذشته به خود اختصاص داده‌اند. دخانیات نیز با ۱۲۳ درصد جز گروه‌های کالایی است که در رده بالای تورم قرار دارد. در سایر بخش‌ها نیز مردم برای مسکن ۲۴.۸ و اجاره ۲۸.۷ در ماه ابتدایی امسال بیش از ماه مشابه سال قبل هزینه کرده‌اند. اما در بخش خدمات حمل و نقل با ۵۲.۵، مبلمان و لوازم خانگی با ۸۰.۱ و همچنین تفریح و سرگرمی با ۷۲ درصد جزو گروه‌هایی هستند که تورم بالایی داشته‌اند.
                     </p>
                     <p
-                        className='Aafzayesh'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -71,15 +64,13 @@ export default class Afzayesh extends Component{
 
                     </p>
                     <p
-                        className=' BBazar'
                         style={{
-                            bottom:-750,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         شب گذشته بود که خبر عدم معافیت برخی کشورها در زمینه خرید نفت ایران منتشر شد. در سطح جهانی بررسی‌ها نشان از آن دارد که طی معاملات ارزی روز جاری کاملاً تحت تأثیر تصمیم روز گذشته آمریکا در تحریم نفتی ایران بوده است و تنها دلار کانادا به دلیل آنکه یکی از صادرکنندگان بزرگ بازار نفت محسوب می‌شود در برابر دلار آمریکا روند صعودی به خود گرفته است و ارز کشورهایی همچون هند و چین که واردکننده نفت هستند در مقابل دلار آمریکا روند نزولی به خود گرفته است.
@@ -89,14 +80,10 @@ export default class Afzayesh extends Component{
                         حال با این شرایط بازار ارز ایران نیز روند صعودی به خود گرفته و قیمت خرید دلار و یورو نیز در بانک‌ها نسبت به روز گذشته افزایش داشته است؛ به طوری که هر دلار تا ۱۳ هزار و ۶۳۷ تومان خریداری شده که در مقایسه با روز گذشته نزدیک به ۲۴۶ تومان افزایش داشته است همچنین هر یورو تا ۱۵ هزار و ۳۴۶ تومان خریداری می‌شود که نسبت به نرخ ۱۵ هزار و ۵۰ تومانی روز قبل تا ۳۰۰ تومان گران‌تر خریداری می‌شود. همچنین در بازار آزاد نیز قیمت‌ها در مقایسه با روز دوشنبه تا حدی افزایشی بود و هر دلار تا حدود ۱۴ هزار و ۸۰ و یورو تا ۱۵ هزار و ۸۵۰ تومان معامله شده است.
                     </p>
                     <p
-                        className='Bbardasht'
                         style={{
-                            bottom:-850,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
-                            fontFamily:"XBKayhan",
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         برداشت از منابع ارزی چقدر بوده است؟
@@ -104,26 +91,23 @@ export default class Afzayesh extends Component{
 
                     </p>
                     <p
-                        className=' Bardasht'
-                        style={{
-                            bottom:-1000,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
-                            fontFamily:"b zar",
 
-                            width:"70%"
+                        style={{
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
+                            fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         ی بررسی لایحه پیشنهادی بودجه و تأمین منابع جبران خسارت سیل بارها و بارها نام صندوق توسعه ملی و ذخایر آن به میان آمد که با این شرایط بررسی میزان برداشت‌ها از منابع ارزی صندوق توسعه ملی خالی از لطف نیست، صندوق توسعه ملی از ابتدای دهه اول کار خود را آغاز کرده و تا پایان سال گذشته ۴۵ هزار میلیارد تومان از ذخایر ارزی به ریال تبدیل شده و از کانال سپرده گذاری در بانک‌ها برای استفاده در بخش‌های مختلف در دستور کار قرار گرفته است.
                     </p>
                     <p
-                        className='Nnojoom'
                         style={{
-                            bottom:-1100,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -133,15 +117,13 @@ export default class Afzayesh extends Component{
 
                     </p>
                     <p
-                        className=' Nojoom'
                         style={{
-                            bottom:-1400,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         یکی از قسمت‌های قابل توجه در بسته و اخبار اقتصادی ایسنا همواره اخبار حوزه مسکن بوده که بررسی‌های اخیر نشان از آن دارد که قیمت میانگین هر متر خانه در حال حاضر به متری ۱۱ میلیون تومان رسیده و در کنار آن میزان خرید و فروش خانه افت قابل توجهی داشته است، البته این افت قیمت با رشد قیمت به همراه حباب بوده است، حبابی که همچنان وجود دارد و انگار قرار نیست به این زودی‌ها ترکیده شود.
@@ -149,12 +131,10 @@ export default class Afzayesh extends Component{
                         در کنار تمام این مسائل قیمت‌هایی برای فروش مسکن در فضای مجازی اعلام می‌شود که بسیار متفاوت‌تر از شرایط واقعی بازار است و به عقیده رئیس اتحادیه مشاوران املاک تهران این قیمت‌های نجومی بر بازار تأثیرگذار است که البته تنها بازار مسکن درگیر این چنین قیمت‌گذاری‌ها نیست و بازارهایی همچون بازار خودرو و موتورسیکلت با این موضوع درگیر هستند.
                     </p>
                     <p
-                        className='DDiplomasy'
                         style={{
-                            bottom:-1550,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -164,15 +144,13 @@ export default class Afzayesh extends Component{
 
                     </p>
                     <p
-                        className=' Diplomasy'
                         style={{
-                            bottom:-1700,
-                            position:"absolute",
-                            right:200,
-                            fontSize:18,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         رئیس اتاق بازرگانی تهران که امروز برای بار دیگر در این سمت ابقاء شده بیان کرده در شرایط تحریم‌های اقتصادی بخش‌های مختلف اقتصاد ایران باید خود را برای شرایط جدید تقویت کنند و در این بین دیپلماسی اقتصادی بیشترین اهمیت را دارد

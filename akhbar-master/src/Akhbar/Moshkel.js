@@ -10,32 +10,28 @@ export default class Moshkel extends Component{
 
                 >
                     <img src={require('./../img/57595561.jpg')}
-                         className='MOHLAT'
                          style={{
-                             position:"absolute",
-                             bottom:150,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='fgfkd'
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:370,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         دستورالعمل جدید بانک مرکزی نمی تواند مشکل ارز صادراتی را حل کند
                     </p>
                     <p
-                        className=' jfkfjjk'
                         style={{
-                            bottom:-700,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

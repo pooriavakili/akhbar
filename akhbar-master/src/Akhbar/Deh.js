@@ -1,5 +1,4 @@
 import React,{Component} from 'react'
-import App from './../App'
 import Header from "./../component/Header";
 export default class Deh extends Component{
     render(){
@@ -10,32 +9,30 @@ export default class Deh extends Component{
 
                 >
                     <img src={require('./../img/57734108.jpg')}
-                         className='DEH'
                          style={{
-                             position:"absolute",
-                             bottom:350,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DEhloran'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:300,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         نماینده دهلران: از مرز دهلران می‌توان بیش از چندین میلیارد دلار صادرات داشت
                     </p>
                     <p
-                        className=' DERFR'
+
                         style={{
-                           bottom:-50,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

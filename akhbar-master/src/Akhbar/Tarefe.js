@@ -10,34 +10,30 @@ export default class Tarefe extends Component{
 
                 >
                     <img src={require('./../img/57886304.jpg')}
-                         className='SOLULES'
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jksadk'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         احتمال حذف تعرفه صادرات خرما از چند روز دیگر
                     </p>
                     <p
-                        className=' dnnxcdv'
                         style={{
-                            top:520,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         مدیرکل دفتر توسعه صادرات وزارت جهاد کشاورزی از پیشنهاد حذف تعرفه صادرات خرما با نزدیک شدن به پایان ماه مبارک رمضان و کاهش تقاضای مصرف داخلی این محصول خبر داد.

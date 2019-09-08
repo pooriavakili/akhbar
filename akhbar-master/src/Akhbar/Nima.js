@@ -10,34 +10,31 @@ export default class Nima extends Component{
 
                 >
                     <img src={require('./../img/57818092.jpg')}
-                         className='NIMA'
+
                          style={{
-                             position:"absolute",
-                            bottom:250,
-                            right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='NNima'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         معامله مستقیم تجار در سامانه نیما امکانپذیر شد
                     </p>
                     <p
-                        className=' EWEE'
                         style={{
-                          bottom:-50,
-                            direction:"rtl",
-                             width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         طبق اطلاعیه بانک مرکزی، صادرکنندگان می‌توانند ارز حاصل از صادرات را در قالب «آگهی» در سامانه جامع تجارت ثبت کنند و واردکنندگان متقاضی ارز نیز می‌توانند با آنها مذاکره و معامله کنند.

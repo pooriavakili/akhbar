@@ -10,32 +10,31 @@ export default class Khorma extends Component{
 
                 >
                     <img src={require('./../img/57302946.jpg')}
-                         className='KHORMAAa'
+
                          style={{
-                             position:"absolute",
-                             bottom:280,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='KAMBOUD'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         کمبودی در بازار خرما نیست/ دلایل گرانی چیست؟
                     </p>
                     <p
-                        className=' SSDA'
                         style={{
-                            bottom:-500,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl",
                         }}

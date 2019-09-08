@@ -10,20 +10,19 @@ export default class Bastar extends Component{
 
                 >
                     <img src={require('./../img/57711794.jpg')}
-                         className='BAZARr'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='BBAZARR'
+
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         شرق اروپا بستر جدید کالاهای ایرانی؟
@@ -31,13 +30,12 @@ export default class Bastar extends Component{
 
                     </p>
                     <p
-                        className=' FXXGF'
+
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

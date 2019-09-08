@@ -11,19 +11,17 @@ export default class Tashrih extends Component{
                 >
                     <img src={require('./../img/1447835477245_81708650-70076559-th2.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Tashrih'
                     />
                     <p
-                        className='kcvxk'
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             fontFamily:"XBKayhan",
                             direction:"rtl",
                         }}
@@ -31,15 +29,13 @@ export default class Tashrih extends Component{
                         تشریح اولویت‌های فن‌بازار ملی برای توسعه صادرات
                     </p>
                     <p
-                        className=' jkxcj'
                         style={{
-                            bottom:-250,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         رئیس فن بازار ملی ایران با بیان این‌که ضعف بازاریابی و فروش مشکل عمده شرکت‌های فناوری است، به تشریح اولویت‌های فن‌بازار ملی برای توسعه صادرات پرداخت.
@@ -60,12 +56,10 @@ export default class Tashrih extends Component{
 
                     </p>
                     <p
-                        className='Bahes'
                         style={{
-                           bottom:-350,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl",
                         }}
@@ -75,15 +69,13 @@ export default class Tashrih extends Component{
 
                     </p>
                     <p
-                        className=' Bbahes'
                         style={{
-                            bottom:-700,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:20,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
+                            direction:"rtl"
                         }}
                     >
                         حسن حیدری، رئیس پارک علم وفناوری آذربایجان غربی نیز اظهار کرد: آذربایجان غربی در سال گذشته به عنوان استان پایلوت اجرای فن بازار در منطقه شناسایی شد و به دلیل نیاز به فن بازار در منطقه، نخستین فن بازار منطقه ای استان در ارومیه افتتاح شد.

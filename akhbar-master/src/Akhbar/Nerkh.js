@@ -10,32 +10,29 @@ export default class Nerkh extends Component{
 
                 >
                     <img src={require('./../img/57331418.jpg')}
-                         className='NERKH'
+
                          style={{
-                             position:"absolute",
-                            bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto'
                          }}
                     />
                     <p
-                        className='NNERKH'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         بازار ارز با نرخ آزاد بهبود می‌یابد/ سامانه‌ها جوابگو نیستند
                     </p>
                     <p
-                        className=' ASSD'
                         style={{
-                            bottom:-450,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

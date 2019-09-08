@@ -12,21 +12,19 @@ export default class Kahesh extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='Zzendegy'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className=' Zendegy'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         صادرات و واردات ایران با کاهش قیمت آغاز شد
@@ -34,15 +32,13 @@ export default class Kahesh extends Component{
 
                     </p>
                     <p
-                        className=' Afzayesh'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         جریان صادرات و واردات ایران در سال جاری با کاهش متوسط قیمت هر تن کالا نسبت به مدت مشابه سال قبل از سر گرفته شده است؛ به طوری که در فروردین ماه متوسط قیمت هر تن کالای صادراتی ۲۴ درصد و وارداتی تا بیش از ۱۴ درصد کاهش داشته است.
@@ -58,13 +54,11 @@ export default class Kahesh extends Component{
                         بررسی وضعیت طرف‌های معامله در صادرات غیر نفتی بر اساس ارزش طی یک ماه نخست سال جاری نشان می‌دهد که افغانستان ۵.۵۰ درصد، امارات ۹.۰۵، کره ۹.۸۲، عراق ۱۵.۲۶ و چین ۲۷.۹۲ پنج کشور عمده طرف معاملات صادراتی ایران بودند و ۳۲.۱۴ درصد باقی مانده به سایر کشورها برمی‌گردد.
                     </p>
                     <p
-                        className='KKahesh'
-                        style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
 
+                        style={{
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -74,23 +68,22 @@ export default class Kahesh extends Component{
 
                     </p>
                     <img
-                       className='NNAVAD'
+                        className='andaze'
                         style={{
-                            position:"absolute",
-                            bottom:-600,
-                            right:300
+                            marginTop:"5em",
+                            display: 'block',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
                         }}
                         src={require('./../img/57876649.jpg')} alt=""/>
                     <p
-                        className=' NAVaD'
                         style={{
-                            bottom:-850,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         اما واردات ایران در یک ماه اول ۱۳۹۸ عمدتاً شامل برنج به ارزش ۱۹۶ میلیون دلار، ذرت دامی ۱۲۳ میلیون دلار، کنجاله سویا ۹۸ میلیون دلار، کره بسته‌بندی شده ۹۱ میلیون دلار و لوبیای سویا با ۷۵ میلیون دلار بوده است.
@@ -101,12 +94,10 @@ export default class Kahesh extends Component{
 
                     </p>
                     <p
-                        className='Mizan'
                         style={{
-                            bottom:-950,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             fontFamily:"XBKayhan",
                             direction:"rtl"
                         }}
@@ -118,11 +109,12 @@ export default class Kahesh extends Component{
                     </p>
 
                     <img
-                        className='MMizan'
+                        className='andaze'
                         style={{
-                            position:"absolute",
-                            bottom:-1250,
-                            right:300
+                            marginTop:"5em",
+                            display: 'block',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
                         }}
                         src={require('../img/57876650.jpg')} alt=""/>
                 </div>

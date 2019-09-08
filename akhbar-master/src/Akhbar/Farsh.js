@@ -10,36 +10,31 @@ export default class Farsh extends Component{
 
                 >
                     <img src={require('./../img/57814997.jpg')}
-                         className='AKSHEMAYAT'
                          style={{
-                             position:"absolute",
-                            top:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='HHEMAYAT'
                         style={{
-                            bottom:430,
-                            position:"absolute",
-                            right:450,
-                            direction:"rtl",
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات ۱.۵ میلیون یورویی فرش‌های نانویی ایران به ۲۵ کشور
 
                     </p>
                     <p
-                        className='FFasrsh '
                         style={{
-                            bottom:-1000,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         محققان حوزه نساجی با به کاربردن نانوذرات آنتی‌باکتریال در نخ‌های فرش، موفق به تولید فرش‌های ضد میکروب شدند که این مزیت برای مناطق با رطوبت بالا از اهمیت بالایی برخوردار است و در سال گذشته توانستند به ۲۵ کشور صادر کنند.

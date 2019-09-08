@@ -10,36 +10,29 @@ export default class Azarbayejan extends Component{
 
                 >
                     <img src={require('./../img/57875619.jpg')}
-                         className='JOMHOORYY'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='Rrahe'
-
                         style={{
-                            bottom:470,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
-
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         جمهوری آذربایجان رتبه اول صادرات خارجی ارس
 
                     </p>
                     <p
-                        className=' dskgf'
                         style={{
-                            bottom:-300,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -57,12 +50,10 @@ export default class Azarbayejan extends Component{
                         شرکت‌های منطقه آزاد ارس ۸۶ میلیون دلار صادرات قطعی (خارجی)، ۳۰ میلیون دلار صادرات مجدد، ۱۱۴ میلیون دلار صادرات حاصل از تولید به سرزمین اصلی و ۲۱ میلیون دلار صادرات کالاهای داخلی انجام شد.
                     </p>
                     <p
-                        className=' Aaras'
                         style={{
-                            bottom:-450,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -73,25 +64,21 @@ export default class Azarbayejan extends Component{
 
                     </p>
                     <p
-                        className=' ARAS'
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
                     >
                         محسن نریمان با اشاره به کشورهای هدف صادراتی ارس می‌گوید: کشورهای آذربایجان، ترکیه، روسیه، عراق، ازبکستان، گرجستان، افغانستان، آلمان و امارات متحده عربی در جمع بازارهای هدف محصولات تولیدی ارس هستند.                    </p>
                     <p
-                        className='KHAREGY'
                         style={{
-                            bottom:-700,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -102,13 +89,11 @@ export default class Azarbayejan extends Component{
 
                     </p>
                     <p
-                        className='JOMHOORY'
                         style={{
-                            bottom:-1400,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -129,12 +114,10 @@ export default class Azarbayejan extends Component{
 
                         به گفته وی این اقلام صادراتی شامل قیر، نفت، گازوئیل، هیدروکربن، فیلم شیرینگ، انواع کیسه، طناب از پلی‌اتیلن، خشکبار، نخ پلی‌استر، منسوجات، فلفل، گوجه‌فرنگی، کیسه جامبوبگ، کارتن خالی، هیدروکروبن و سایر موارد است.                    </p>
                     <p
-                        className=' SSARZAMIN'
                         style={{
-                            bottom:-1500,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -145,13 +128,11 @@ export default class Azarbayejan extends Component{
 
                     </p>
                     <p
-                        className=' SARZAMIN'
                         style={{
-                            bottom:-1800,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -162,12 +143,10 @@ export default class Azarbayejan extends Component{
 
                     </p>
                     <p
-                        className=' RRoshed'
                         style={{
-                            bottom:-1900,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -178,13 +157,11 @@ export default class Azarbayejan extends Component{
 
                     </p>
                     <p
-                        className=' Roshed'
                         style={{
-                            bottom:-2200,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            width:"70%",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

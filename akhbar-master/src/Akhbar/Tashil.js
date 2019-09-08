@@ -10,34 +10,32 @@ export default class Tashil extends Component{
 
                 >
                     <img src={require('./../img/57877896.jpg')}
-                         className='SOLULES'
+
                          style={{
-                             position:"absolute",
-                             top:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='jksadk'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ارتباط بین صادرکننده و واردکننده تسهیل شود
                     </p>
                     <p
-                        className=' dnnxcdv'
+
                         style={{
-                            top:520,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         نایب رئیس کمیسیون سرمایه‌گذاری اتاق بازرگانی ایران گفت: دولت شرایط را به طور کامل تسهیل کرده و ارتباط‌گیری میان صادرکننده و واردکننده را آسان کند.

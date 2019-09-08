@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import './Responsive.css'
 import Header from "./../component/Header";
 export default class Sanaye extends Component{
@@ -11,34 +11,30 @@ export default class Sanaye extends Component{
 
                 >
                     <img src={require('./../img/57783267.jpg')}
-                         className='Sanaye'
                          style={{
-                             position:"absolute",
-                             top:200,
-                         right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='dasty'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         افزایش 2 برابری صادرات صنایع دستی کرمانشاه
                     </p>
                     <p
-                        className=' KHH'
                         style={{
-                            width:"70%",
-                           bottom:-200,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         معاون صنایع دستی اداره کل میراث فرهنگی، صنایع دستی و گردشگری استان از افزایش دو برابری صادرات سال گذشته صنایع دستی کرمانشاه به نسبت سال ماقبل آن خبر داد.

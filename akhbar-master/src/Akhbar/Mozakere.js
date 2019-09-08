@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Mozakere extends Component{
     render(){
@@ -11,19 +11,19 @@ export default class Mozakere extends Component{
                 >
                     <img src={require('./../img/57514474.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Pore'
+
                     />
                     <p
-                        className='MOZAKERE'
+
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:450,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -31,15 +31,13 @@ export default class Mozakere extends Component{
 
                     </p>
                     <p
-                        className='Gorbe'
                         style={{
-                            top:450,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         رئیس اتحادیه تولیدکنندگان و صادرکنندگان مبلمان ایران ممنوعیت واردات در صنعت مبل را به دلیل حجم بالای تولید، در رشد این صنعت بی‌تاثیر دانست و اظهار کرد که تسهیلات ۱.۵ میلیارد دلاری وعده داده شده به کارگاه‌های مبل تاکنون پرداخت نشده است.

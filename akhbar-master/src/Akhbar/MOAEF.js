@@ -10,33 +10,30 @@ export default class MOAEF extends Component{
 
                 >
                     <img src={require('./../img/57820588.jpg')}
-                         className='Moaef'
                          style={{
-                             position:"absolute",
-                             top:200,
-                           right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='WEQW'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         معافیت ارزی صادرکنندگان کمتر از ۱ میلیون دلار را حذف کنید
                     </p>
                     <p
-                        className=' GBDD'
                         style={{
-                            top:420,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         در سومین جلسه شورای راهبردی توسعه صادرات غیرنفتی، اعضای این جلسه خواستار تغییر سیاست‌های ارزی، یکسان‌سازی نرخ ارز و حذف تمایز صادرکنندگان یک میلیون دلاری و مبالغ بالاتر شدند چراکه به گفته آن‌ها این موضوع باعث ایجاد رقابت منفی در بازارهای صادراتی شده است.

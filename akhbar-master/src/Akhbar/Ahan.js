@@ -6,37 +6,35 @@ export default class Ahan extends Component{
         return(
             <div>
                 <Header/>
-                <div
 
-                >
                     <img src={require('./../img/57510305.jpg')}
-                         className='Sang'
+
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:480
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
+
                     <p
-                        className='jkjk'
+
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات سنگ‌آهن به نفع کشور است یا نیست!؟
 
                     </p>
                     <p
-                        className=' SAngAhan'
+
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:20,
+                       marginTop:'4em',
+                         marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -62,7 +60,7 @@ export default class Ahan extends Component{
 
                     </p>
                 </div>
-            </div>
+
         )
     }
 }

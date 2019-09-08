@@ -11,20 +11,17 @@ export default class Harf extends Component{
                 >
                     <img src={require('./../img/57759642.jpg')}
                          style={{
-                             position:"absolute",
-                             bottom:270,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Ddollar'
                     />
                     <p
-                        className='pas'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -32,13 +29,11 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' HARf'
                         style={{
-                           bottom:-250,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:17,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -58,12 +53,10 @@ export default class Harf extends Component{
                         او هم‌چنین در این نشست خبری به عملیاتی شدن بازار متشکل ارزی تا پایان فروردین‌ماه و تعیین نرخ سود برای بانک‌ها اشاره کرده، اما در این رابطه توضیحات تکمیلی ارائه نکرده و این سوال وجود دارد که بازار متشکل ارزی دقیقاً چه کارکردی خواهد داشت.
                     </p>
                     <p
-                        className=' Zakhayer'
                         style={{
-                            bottom:-350,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -76,15 +69,13 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' Zzakhayer'
                         style={{
-                            bottom:-600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:17
+                            direction:"rtl"
                         }}
                     >
                         یکی از موضوعات مهم در روزهای اخیر حواشی سیل در مناطق مختلف کشور است و حال جای سوال دارد که با توجه به بسته شدن پرونده بودجه ۱۳۹۸ و اولویت اصلی بانک‌ها در ارائه تسهیلات به رونق تولید، قرار است دولت از چه مسیری خسارات را جبران کند؛ طبق بررسی‌ها به نظر می‌رسد دولت بار دیگر باید به منابع ارزی صندوق توسعه ملی یا انتشار اوراق قرضه روی بیاورد. این مسائل در حالی مطرح می‌شود که تا به امروز در بودجه سال جاری با دریافت مجوز و تصویب مجلس شورای اسلامی به دولت اجازه داده شده تا دو میلیارد و ۳۷۵ میلیون یورو از منابع ورودی سال جاری به صندوق توسعه ملی به صورت تسهیلات ارزی و با تضمین دولت در اختیار ۱۰ بخش قرار گیرد و این در حالی است که صندوق توسعه ملی برای حفظ سهم‌های آینده از محل نفت و گاز و فرآورده‌های نفتی ایجاد شده و مصارف آن کاملاً مشخص است.
@@ -95,12 +86,10 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' Ronagh'
                         style={{
-                           bottom:-700,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
 
                             direction:"rtl"
                         }}
@@ -110,13 +99,11 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' RRonagh'
                         style={{
-                            bottom:-900,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:17,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -126,14 +113,11 @@ export default class Harf extends Component{
                         این مسائل در حالی مطرح می‌شود که برای رونق تولید باید از واحدهای تولیدی و فضای کارگری کشور حمایت قابل توجهی انجام گیرد و کمیل طیبی - عضو هیأت علمی دانشگاه اصفهان - معتقد است سازوکار حمایت از تولید بر نیروی کار و سرمایه استوار است. حمایت از سرمایه‌گذاری در تولید به گونه‌ای تخصیص منابع هم محسوب می‌شود. البته به شرطی که تکنولوژی سطح بالا برای این سرمایه‌گذارها هم در نظر گرفته شود. در کنار این موارد نایب رئیس کانون انجمن‌های صنفی کارگران معتقد است باید با قراردادهای موقت و غیرقانونی کارگران مقابله شود.
                     </p>
                     <p
-                        className='Omer'
                         style={{
-                           bottom:-1000,
-                            position:"absolute",
-                            right:400,
-
-                            direction:"rtl",
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
+                            direction:"rtl"
                         }}
                     >
                         عمر رشد قیمت بلیط اتوبوس به اندازه یک نوروز
@@ -141,13 +125,11 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' Oomer'
                         style={{
-                            bottom:-1100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:17,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}
@@ -155,13 +137,10 @@ export default class Harf extends Component{
                         در روزهای پایانی سال گذشته برخلاف روال سال‌های گذشته قرار بر آن شد که نرخ بلیت اتوبوس رشد ۲۰ درصدی خود را برای کل سال ۱۳۹۸ حفظ کند اما این تصمیم عمر کوتاهی داشت و پس از سه روز وزیر راه و شهرسازی با این موضوع مخالفت کرد و رشد ۲۰ درصدی نرخ اتوبوس با پایان تعطیلات نوروزی به نرخ قبلی بازگشت و به نظر می‌رسد طبق روال سال‌های گذشته نرخ اتوبوس در تابستان افزایش یابد و به مدت یکسال این افزایش قیمت ثابت بماند.
                     </p>
                     <p
-                        className='Ghanoon'
                         style={{
-                            bottom:-1200,
-                            position:"absolute",
-                            right:500,
-                            fontSize:22,
-
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em',
                             direction:"rtl"
                         }}
                     >
@@ -170,13 +149,11 @@ export default class Harf extends Component{
 
                     </p>
                     <p
-                        className=' GGhanoon'
                         style={{
-                            bottom:-1400,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:17,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

@@ -10,35 +10,30 @@ export default class Moshkelat extends Component{
 
                 >
                     <img src={require('./../img/57868611.jpg')}
-                         className='MOShkelat'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='WSQ'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         خسارت تجار در پی تعطیلی مرز چذابه و قطع صادرات
                     </p>
                     <p
-                        className=' EDEE'
-
                         style={{
-                            bottom:-250,
-                            width:"70%",
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22
+                            direction:"rtl"
                         }}
                     >
                         رییس اتاق بازرگانی اهواز با اشاره به توقف صادرات از پایانه مرزی چذابه، گفت: اینکه صادرکنندگان نمی‌توانند کالاهای خود را صادر و به صورت کامل به تعهدات خود عمل کنند، مشکلاتی را برای آن‌ها به وجود آورده است.

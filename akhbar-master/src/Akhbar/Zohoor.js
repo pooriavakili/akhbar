@@ -10,34 +10,30 @@ export default class Zohoor extends Component{
 
                 >
                     <img src={require('./../img/57822821.jpg')}
-                         className='Zohooor'
                          style={{
-                             position:"absolute",
-                             bottom:250,
-                             right:500
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='FDSEE'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:350,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ظهور ۶۴۴۷ صادرکننده جدید در سال ۹۷/ انگیزه آنها بازگشت ارز نبود
                     </p>
                     <p
-                        className=' IOP'
                         style={{
-                            bottom:-450,
-                             width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
-                            direction:"rtl",
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت ایران از صادرات ۴۴.۳ میلیارد دلاری در سال ۱۳۹۷ خبر داد که بیش از ۲۴.۱ میلیارد دلار از آن به کشورهای همسایه صادر شده و در مقایسه با سال ۱۳۹۶ سه درصد رشد داشته است.

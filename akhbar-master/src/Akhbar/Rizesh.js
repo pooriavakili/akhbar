@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import App from './../App'
+
 import Header from "./../component/Header";
 export default class Rizesh extends Component{
     render(){
@@ -10,35 +10,32 @@ export default class Rizesh extends Component{
 
                 >
                     <img src={require('./../img/57661387.jpg')}
+
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                         className='Arzz'
                     />
                     <p
-                        className='Dakhel'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:450,
-                            fontSize:22
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         ریزش واردات و صادرات غیرنفتی
 
                     </p>
                     <p
-                        className='Enteghall'
                         style={{
-                            bottom:-100,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         مجموع عملکرد تجارت خارجی ایران در سال گذشته بیانگر کاهش واردات و صادرات غیرنفتی است؛ در این دوره صادرات ۱۱.۷ درصد و واردات تا ۱۷.۵ درصد کاهش داشته دارد.
@@ -52,28 +49,26 @@ export default class Rizesh extends Component{
                         عمده صادرات ایران در سال گذشته به کشورهای افغانستان، امارات متحده عربی، عراق، چین و کره انجام شده است و متوسط قیمت هر تن کالای صادراتی حدود ۳۷۸ دلار بوده که نسبت به سال ۱۳۹۶ حدود ۶.۹ درصد افزایش داشته است.
                     </p>
                     <img
+                        className='andaze'
                         src={require('./../img/57878833.jpg')}
-                        className='NAFTY'
                         style={{
-                            bottom:-400,
-                            position:"absolute",
-                            right:300,
-                            fontSize:22
+                            marginTop:"5em",
+                            display: 'block',
+                            marginLeft: 'auto',
+                            marginRight: 'auto',
                         }}
                     >
 
 
                     </img>
                     <p
-                        className='RIZESHH'
                         style={{
-                            bottom:-700,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         اما در رابطه با جریان واردات، گزارش گمرک حاکی از آن است که که با کاهش ۱۷.۵۳ درصدی در وزن و ۲۱.۷۵ درصدی در ارزش دلاری نسبت به مدت مشابه در سال ۱۳۹۶ همراه بوده است؛ در این دوره میزان واردات به ۳۲ میلیون و ۴۶ هزار تن و به ارزش ۴۲ میلیارد و ۶۱۲ میلیون دلار رسیده است.
@@ -83,13 +78,13 @@ export default class Rizesh extends Component{
                         ایران عمده واردات خود را به کشورهای چین، آلمان، هند، ترکیه و امارات متحده عربی انجام داده و در سال گذشته متوسط قیمت هر تن کالای وارداتی حدود ۱.۳۳۰ دلار بوده که حدود ۵.۱۳ درصد کاهش داشته است.
                     </p>
                     <img src={require('./../img/57878831.jpg')} alt=""
+                         className='andaze'
                          style={{
-                             bottom:-1000,
-                             position:"absolute",
-                             right:300,
-                             fontSize:22
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
-                     className='AKSRIZESH'
                     />
                 </div>
             </div>

@@ -10,34 +10,31 @@ export default class Ghodrat extends Component{
 
                 >
                     <img src={require('./../img/57644220.jpg')}
-                         className='GHODRAT'
                          style={{
-                             position:"absolute",
-                             top:200,
-                            right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='RTEE'
                         style={{
-                            top:100,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         آثار کاهش قدرت خرید در سال‌های بعد مشخص می‌شود
                     </p>
                     <p
-                        className='EWSWQ'
+
                         style={{
-                            top:500,
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            width:"70%"
+                            direction:"rtl"
                         }}
                     >
                         عضو هیئت مدیره کنفدراسیون صنعت ایران کمبود نقدینگی واحدهای تولیدی، افزایش قیمت مواد اولیه و موانع صادرات را از جمله مهمترین دلایل رشد منفی ۷.۹ درصدی بخش صنعت عنوان کرد.

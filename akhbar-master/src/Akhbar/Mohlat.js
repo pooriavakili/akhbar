@@ -10,32 +10,28 @@ export default class Mohlat extends Component{
 
                 >
                     <img src={require('./../img/57764395.jpg')}
-                         className='MOHLAT'
                          style={{
-                             position:"absolute",
-                             bottom:300,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='fgfkd'
                         style={{
-                            bottom:500,
-                            position:"absolute",
-                            right:400,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         مهلت استفاده از بسته ارزی برای تجار تمدید شد
                     </p>
                     <p
-                        className=' jfkfjjk'
                         style={{
-                           bottom:-100,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

@@ -10,20 +10,18 @@ export default class Borouz extends Component{
 
                 >
                     <img src={require('./../img/1421659888846_pourya pakizeh-6-th2.jpg')}
-                         className='BAZARr'
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='BBAZARR'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:500,
-                            fontSize:20
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         بروز مشکل در راه صادرات کفش
@@ -31,13 +29,12 @@ export default class Borouz extends Component{
 
                     </p>
                     <p
-                        className=' FXXGF'
+
                         style={{
-                            bottom:-600,
-                            position:"absolute",
-                            right:200,
-                            width:"70%",
-                            fontSize:22,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
                             direction:"rtl"
                         }}

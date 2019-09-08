@@ -10,36 +10,32 @@ export default class Ebteda extends Component{
 
                 >
                     <img src={require('./../img/57882796.jpg')}
-                         className='ECCO'
+
                          style={{
-                             position:"absolute",
-                             bottom:200,
-                             right:450
+                             marginTop:"5em",
+                             display: 'block',
+                             marginLeft: 'auto',
+                             marginRight: 'auto',
                          }}
                     />
                     <p
-                        className='DOLARR'
                         style={{
-                            bottom:450,
-                            position:"absolute",
-                            right:450,
-                            fontSize:20,
-                            direction:"rtl"
+                            textAlign:"center",
+                            marginTop:'4em',
+                            fontSize:'1.3em'
                         }}
                     >
                         صادرات ۸.۴ میلیارد دلاری ایران در دو ماهه ۹۸
 
                     </p>
                     <p
-                        className=' RGFRE'
                         style={{
-                            bottom:-600,
-                            width:"70%",
-                            position:"absolute",
-                            right:200,
+                            marginTop:'4em',
+                            marginLeft:'3em',
+                            width:"80%",
+                            fontSize:'1.3em',
                             fontFamily:"b zar",
-                            direction:"rtl",
-                            fontSize:20
+                            direction:"rtl"
                         }}
                     >
                         سرپرست سازمان توسعه تجارت اعلام کرد که ایران در دو ماهه ابتدایی سال جاری ۸.۴ میلیارد دلار صادرات داشته است.
