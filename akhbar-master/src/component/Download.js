@@ -7,66 +7,31 @@ export default class Download extends Component{
             <div>
                 <div>
                 <Header/>
+               <h1
+               style={{
+                   marginLeft:"17em",
+                   marginTop:"2em"
+               }}
+
+               > دانلود اپلیکیشن اخبار صادراتی</h1>
+
+                       <div
+                       style={{
+                           marginTop:"5em"
+                       }}
+                       >
+                        <Link
+                            style={{
+
+                                fontSize:"1.5em",
+                                marginLeft:"28em",
+                                textDecoration:"none",
+                                color:"black"
+                            }}
+                            to={require('./../app/app-release.apk')}>دانلود</Link>
+                       </div>
                 </div>
-
-                    <div style={{
-                        position:"relative",
-                        bottom:-100,
-                        right:-500
-                    }}
-                    className='APK'
-
-                    >
-                        <h1 style={{
-                            fontSize:30
-                        }}
-
-                        >
-                            دانلود اپلیکیشن اخبار صادراتی
-                        </h1>
-                    </div>
-                <div
-                    className='APPP'
-                style={{
-                    color:"black",
-                    position:"absolute",
-
-                     borderWidth:3,
-
-
-                    borderColor:"black",
-                    borderStyle:"solid",
-                    fontSize:20,
-                    right:600,
-                    top:500
-                }}
-                >
-                    <Link to={require('./../app/app-release.apk')}
-
-                    style={{
-                        color:"black",
-
-
-
-
-
-
-                        lineStyle:"none",
-                        textDecoration:"none",
-                        cursor:"pointer",
-
-
-                    }}
-                    >
-                        <p
-                        style={{
-
-                        }}
-                        >دانلود اپلیکیشن</p>
-                    </Link>
-                </div>
-                </div>
-
+            </div>
         )
     }
 }

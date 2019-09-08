@@ -10,14 +10,13 @@ export default class About extends Component{
 
                 }}>
                     <div style={{
-                        position:"relative",
-                      bottom:-100,
-                       right:-300
+                   marginTop:'5em',
+                        marginLeft:"4em"
                     }}
-                    className='ABOUTT'
+
                     >
                         <h1 style={{
-                            fontSize:22,
+                            fontSize:'1.3em',
                             fontFamily:"b zar"
                         }}
 
