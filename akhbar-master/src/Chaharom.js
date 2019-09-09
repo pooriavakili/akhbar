@@ -74,36 +74,52 @@ export default function Chaharom () {
                     )
                 )}
 
-            <Link to='/app'
-                  style={{
-                      position:"absolute",
-                      color:"black",
-                      marginTop:'310em',
-                      marginLeft:"30em",
-                      fontSize:"1.5em",
-                      textDecoration:"none"
-                  }}
-            >1</Link>
-            <Link to='/next'
-                  style={{
-                      position:"absolute",
-                      color:"black",
-                      marginTop:'310em',
-                      marginLeft:"31.5em",
-                      fontSize:"1.5em",
-                      textDecoration:"none"
-                  }}
-            >2</Link>
-            <Link to='/sevom'
-                  style={{
-                      position:"absolute",
-                      color:"black",
-                      marginTop:'310em',
-                      marginLeft:"33em",
-                      fontSize:"1.5em",
-                      textDecoration:"none"
-                  }}
-            >3</Link>
+            <div
+                style={{
+                    marginTop:'475em',
+                    marginLeft:"30em",
+                }}
+            >
+                <Link to='/app'
+                      style={{
+                          color:"black",
+                          fontSize:"1.5em",
+                          textDecoration:"none"
+                      }}
+                >1</Link>
+            </div>
+            <div
+                style={{
+                    marginTop:'-1.7em',
+                    marginLeft:"31.5em",
+                }}
+
+            >
+                <Link to='/next'
+                      style={{
+
+                          color:"black",
+
+                          fontSize:"1.5em",
+                          textDecoration:"none"
+                      }}
+                >2</Link>
+            </div>
+            <div
+                style={{
+                    marginTop:'-1.7em',
+                    marginLeft:"33em",
+                }}
+            >
+                <Link to='/sevom'
+                      style={{
+
+                          color:"black",
+                          fontSize:"1.5em",
+                          textDecoration:"none"
+                      }}
+                >3</Link>
+            </div>
         </div>
     )}
 
