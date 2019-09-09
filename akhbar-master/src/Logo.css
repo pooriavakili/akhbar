@@ -1,38 +1,10 @@
 @media only screen and (max-width : 991px)  {
-    .DATA{
-        width: 150px;
-        height: 150px;
+    .display{
+        display: block;
     }
-
-    .DATATWO{
-        display: none;
-    }
-
     .DATAONE{
         left: 30px;
         width: 50%;
-    }
-    .MMenu{
-        display: flex;
-        color: red;
-    }
-    .ONE{
-        left:250px;
-    }
-    .THREE{
-        left: 300px;
-    }
-    .FOUR{
-        left: 350px;
-    }
-    .DO{
-        left: 300px;
-    }
-    .CHAHAROMM{
-        left: 350px;
-    }
-    .SEH{
-        left:350px;
     }
 }
 

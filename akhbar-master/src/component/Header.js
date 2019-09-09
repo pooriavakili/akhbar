@@ -41,7 +41,7 @@ export default class Header extends Component{
                     height: 190,
                     background: 'black',
                     position:'absolute',
-                    marginTop:'460em',
+                    marginTop:'480em',
                    overflow:"hidden",
                     borderWidth:3,
                     borderStyle:"solid",
