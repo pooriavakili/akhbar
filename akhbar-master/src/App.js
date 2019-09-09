@@ -64,12 +64,6 @@ export default function App () {
                                     >
                                         {item.maten}
                                     </p>
-                                    <div style={{
-                                 marginTop:index>=30 && index<=32?"3em":"2em"
-
-
-                                    }}>
-                                    </div>
                                 </Link>
                             </div>
                         )
