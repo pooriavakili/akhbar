@@ -1,12 +1,13 @@
 import React from 'react';
 import './Logo.css';
 import {Link} from 'react-router-dom'
+import DataThree from './DataThree'
 import Header from "./component/Header";
-import DataThree from "./DataThree";
 export default function Chaharom () {
     return (
         <div>
             <Header/>
+
             {
                 DataThree.map((item, index)=> (
                         <div
@@ -20,21 +21,30 @@ export default function Chaharom () {
                                       textDecoration:"none"
                                   }}
                             >
-                                <img src={item.aks}
-                                     style={{
+                                <div
+                                    style={{
+                                        float:'right',
+                                        marginLeft:"40em",
+                                        marginTop:index==0?29:"3em"
+                                    }}
+                                >
+                                    <img src={item.aks}
 
-                                         marginBottom:  index == 0 ? 22 :-98,
-                                         marginLeft: index==0?22:'60em'
-                                     }}
+                                         style={{
 
 
-                                     alt=""/>
+
+                                         }}
+
+
+                                         alt=""/>
+                                </div>
                                 <p
 
                                     style={{
-
-                                        marginTop: index == 0 ?22: '.1em',
-                                        marginRight:  index == 0 ? 22 : '20em',
+                                        marginTop:"-9em",
+                                        marginRight:"15em",
+                                        float:"right",
                                         fontSize: '1.3em',
                                         direction: "rtl",
                                     }}
@@ -42,12 +52,13 @@ export default function Chaharom () {
                                     {item.title}
                                 </p>
                                 <p
-                                    className='DATATWO'
+                                    className='DATATwo'
                                     style={{
 
-                                        marginTop: index == 0 ? 22 : '.2em',
+                                        float:"right",
                                         width: "40%",
-                                        marginLeft: index == 0 ? 22 : '19em',
+                                        marginRight:"14em",
+                                        marginTop:"-5em",
                                         fontSize: '1.3em',
                                         direction: "rtl",
 
@@ -55,16 +66,44 @@ export default function Chaharom () {
                                 >
                                     {item.maten}
                                 </p>
-                                <div style={{
-
-                                    marginTop:index==23?25:'1em',
-
-                                }}>
+                                <div
+                                >
                                 </div>
                             </Link>
                         </div>
                     )
                 )}
+
+            <Link to='/app'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"30em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >1</Link>
+            <Link to='/next'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"31.5em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >2</Link>
+            <Link to='/sevom'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"33em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >3</Link>
         </div>
     )}
 

@@ -5,8 +5,9 @@ import Data from './Data'
 import Header from "./component/Header";
 export default function App () {
     return (
-        <div>
+        <>
                 <Header/>
+
                 {
                     Data.map((item, index)=> (
                             <div
@@ -73,7 +74,38 @@ export default function App () {
                             </div>
                         )
                     )}
-        </div>
+                    <Link to='/next'
+                    style={{
+                        position:"absolute",
+                        color:"black",
+                        marginTop:'310em',
+                        marginLeft:"30em",
+                        fontSize:"1.5em",
+                        textDecoration:"none"
+                    }}
+                    >2</Link>
+            <Link to='/sevom'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"31.5em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >3</Link>
+            <Link to='/chaharom'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"33em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >4</Link>
+        </>
+
     )}
 
 

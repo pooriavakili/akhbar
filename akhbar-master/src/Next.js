@@ -1,7 +1,7 @@
 import React from 'react';
 import './Logo.css';
 import {Link} from 'react-router-dom'
-import DataOne from "./DataOne";
+import DataOne from './DataOne'
 import Header from "./component/Header";
 export default function Next () {
     return (
@@ -21,21 +21,30 @@ export default function Next () {
                                       textDecoration:"none"
                                   }}
                             >
-                                <img src={item.aks}
-                                     style={{
-
-                                         marginBottom:  index == 0 ? 29 :-98,
-                                         marginLeft: index==0?29:'60em'
-                                     }}
-
-
-                                     alt=""/>
-                                <p
-                                    className='DATAONE'
+                                <div
                                     style={{
+                                        float:'right',
+                                        marginLeft:"40em",
+                                        marginTop:index==0?29:"3em"
+                                    }}
+                                >
+                                    <img src={item.aks}
 
-                                        marginTop: index == 0 ?29: '.1em',
-                                        marginRight:  index == 0 ? 29 : '20em',
+                                         style={{
+
+
+
+                                         }}
+
+
+                                         alt=""/>
+                                </div>
+                                <p
+
+                                    style={{
+                                        marginTop:"-9em",
+                                        marginRight:"15em",
+                                        float:"right",
                                         fontSize: '1.3em',
                                         direction: "rtl",
                                     }}
@@ -43,12 +52,13 @@ export default function Next () {
                                     {item.title}
                                 </p>
                                 <p
-
+                                    className='DATATwo'
                                     style={{
 
-                                        marginTop: index == 0 ? 29 : '.2em',
+                                        float:"right",
                                         width: "40%",
-                                        marginLeft: index == 0 ? 29 : '19em',
+                                        marginRight:"14em",
+                                        marginTop:"-5em",
                                         fontSize: '1.3em',
                                         direction: "rtl",
 
@@ -58,7 +68,7 @@ export default function Next () {
                                 </p>
                                 <div style={{
 
-                                    marginTop:index==31?31:'1em',
+
 
                                 }}>
                                 </div>
@@ -66,6 +76,36 @@ export default function Next () {
                         </div>
                     )
                 )}
+            <Link to='/app'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"30em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >1</Link>
+            <Link to='/sevom'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"31.5em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >3</Link>
+            <Link to='/chaharom'
+                  style={{
+                      position:"absolute",
+                      color:"black",
+                      marginTop:'310em',
+                      marginLeft:"33em",
+                      fontSize:"1.5em",
+                      textDecoration:"none"
+                  }}
+            >4</Link>
         </div>
     )}
 
