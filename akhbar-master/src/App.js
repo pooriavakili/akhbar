@@ -1,4 +1,3 @@
-
 import React from 'react';
 import './Logo.css';
 import {Link} from 'react-router-dom'
@@ -8,7 +7,6 @@ export default function App () {
     return (
         <div>
                 <Header/>
-
                 {
                     Data.map((item, index)=> (
                             <div
@@ -22,21 +20,30 @@ export default function App () {
                                           textDecoration:"none"
                                       }}
                                 >
+                                    <div
+                                    style={{
+                                     float:'right',
+                                        marginLeft:"40em",
+                                     marginTop:index==0?29:"3em"
+                                    }}
+                                    >
                                     <img src={item.aks}
+
                                          style={{
 
-                                             marginBottom:  index == 0 ? 29 :-98,
-                                             marginLeft: index==0?29:'60em'
+
+
                                          }}
 
 
                                          alt=""/>
+                                    </div>
                                     <p
 
                                         style={{
-
-                                            marginTop: index == 0 ?29: '.1em',
-                                            marginRight:  index == 0 ? 29 : '20em',
+                                      marginTop:"-9em",
+                                      marginRight:"15em",
+                                        float:"right",
                                             fontSize: '1.3em',
                                             direction: "rtl",
                                         }}
@@ -44,22 +51,21 @@ export default function App () {
                                         {item.title}
                                     </p>
                                     <p
-                                        className='DATATWO'
+                                        className='DATATwo'
                                         style={{
-
-                                            marginTop: index == 0 ? 29 : '.2em',
+                                          float:"right",
                                             width: "40%",
-                                            marginLeft: index == 0 ? 29 : '19em',
+                                           marginRight:"14em",
+                                            marginTop:"-5em",
                                             fontSize: '1.3em',
                                             direction: "rtl",
-
                                         }}
                                     >
                                         {item.maten}
                                     </p>
                                     <div style={{
+                                 marginTop:index>=30 && index<=32?"3em":"2em"
 
-                                        marginTop:index==31?31:'1em',
 
                                     }}>
                                     </div>
