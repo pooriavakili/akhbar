@@ -2,10 +2,12 @@
   "name": "akhbar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://akhbarsaderaty.ir",
   "dependencies": {
     "@material-ui/core": "^4.4.0",
     "@material-ui/icons": "^4.2.1",
     "classnames": "^2.2.6",
+    "deploy": "^1.0.3",
     "firebase": "^6.6.0",
     "formik": "^1.5.8",
     "prop-types": "^15.7.2",
@@ -19,6 +21,7 @@
     "yup": "^0.27.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
