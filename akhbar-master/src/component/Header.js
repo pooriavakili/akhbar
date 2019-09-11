@@ -34,6 +34,9 @@ export default class Header extends Component{
                         <li>
                             <NavLink   to='/app'  style={Style}>صفحه اول</NavLink>
                         </li>
+                        <li>
+                            <NavLink   to='/signIn'  style={Style}>ورود</NavLink>
+                        </li>
                     </ul>
             <footer
                 style={{
